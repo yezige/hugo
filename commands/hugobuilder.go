@@ -217,7 +217,7 @@ func (c *hugoBuilder) initMemTicker() func() {
 	printMem := func() {
 		var m runtime.MemStats
 		runtime.ReadMemStats(&m)
-		fmt.Printf("\n\nAlloc = %v\nTotalAlloc = %v\nSys = %v\nNumGC = %v\n\n", formatByteCount(m.Alloc), formatByteCount(m.TotalAlloc), formatByteCount(m.Sys), m.NumGC)
+		fmt.Printf("\n\nAlloc = %v\nTotalAlloc = %v\nSys = %v\nNumGC = %v\nNumGO = %v\n\n", formatByteCount(m.Alloc), formatByteCount(m.TotalAlloc), formatByteCount(m.Sys), m.NumGC, runtime.NumGoroutine())
 	}
 
 	go func() {
