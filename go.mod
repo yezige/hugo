@@ -156,3 +156,5 @@ require (
 )
 
 go 1.18
+
+replace github.com/yuin/goldmark v1.5.5 => github.com/yezige/goldmark v1.5.6

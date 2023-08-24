@@ -26,12 +26,12 @@ import (
 	"github.com/gohugoio/hugo/markup/goldmark/internal/render"
 	"github.com/gohugoio/hugo/markup/highlight/chromalexers"
 	"github.com/gohugoio/hugo/markup/internal/attributes"
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/yezige/goldmark"
+	"github.com/yezige/goldmarkrk/ast"
+	"github.com/yezige/goldmarkrk/parser"
+	"github.com/yezige/goldmarkrk/renderer"
+	"github.com/yezige/goldmarkrk/text"
+	"github.com/yezige/goldmarkrk/util"
 )
 
 type (

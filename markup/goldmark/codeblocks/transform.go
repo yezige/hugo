@@ -1,9 +1,9 @@
 package codeblocks
 
 import (
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/text"
+	"github.com/yezige/goldmark/ast"
+	"github.com/yezige/goldmarkrk/parser"
+	"github.com/yezige/goldmarkrk/text"
 )
 
 // KindCodeBlock is the kind of an Hugo code block.

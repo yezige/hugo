@@ -17,7 +17,7 @@ package debug
 import (
 	"github.com/sanity-io/litter"
 	"github.com/spf13/cast"
-	"github.com/yuin/goldmark/util"
+	"github.com/yezige/goldmark/util"
 
 	"github.com/gohugoio/hugo/deps"
 )

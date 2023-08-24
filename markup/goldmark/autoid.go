@@ -25,9 +25,9 @@ import (
 
 	"github.com/gohugoio/hugo/common/text"
 
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/util"
+	"github.com/yezige/goldmark/ast"
+	"github.com/yezige/goldmark/parser"
+	"github.com/yezige/goldmark/util"
 
 	bp "github.com/gohugoio/hugo/bufferpool"
 )

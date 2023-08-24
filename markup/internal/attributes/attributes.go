@@ -21,8 +21,8 @@ import (
 
 	"github.com/gohugoio/hugo/common/hugio"
 	"github.com/spf13/cast"
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/util"
+	"github.com/yezige/goldmark/ast"
+	"github.com/yezige/goldmarkrk/util"
 )
 
 // Markdown attributes used as options by the Chroma highlighter.

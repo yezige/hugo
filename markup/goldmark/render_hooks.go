@@ -24,11 +24,11 @@ import (
 	"github.com/gohugoio/hugo/markup/goldmark/internal/render"
 	"github.com/gohugoio/hugo/markup/internal/attributes"
 
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/util"
+	"github.com/yezige/goldmark"
+	"github.com/yezige/goldmark/ast"
+	"github.com/yezige/goldmark/renderer"
+	"github.com/yezige/goldmark/renderer/html"
+	"github.com/yezige/goldmark/util"
 )
 
 var _ renderer.SetOptioner = (*hookedRenderer)(nil)
@@ -214,7 +214,7 @@ func (r *hookedRenderer) filterInternalAttributes(attrs []ast.Attribute) []ast.A
 }
 
 // Fall back to the default Goldmark render funcs. Method below borrowed from:
-// https://github.com/yuin/goldmark/blob/b611cd333a492416b56aa8d94b04a67bf0096ab2/renderer/html/html.go#L404
+// https://github.com/yezige/goldmark/blob/b611cd333a492416b56aa8d94b04a67bf0096ab2/renderer/html/html.go#L404
 func (r *hookedRenderer) renderImageDefault(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	if !entering {
 		return ast.WalkContinue, nil
@@ -293,7 +293,7 @@ func (r *hookedRenderer) renderLink(w util.BufWriter, source []byte, node ast.No
 }
 
 // Fall back to the default Goldmark render funcs. Method below borrowed from:
-// https://github.com/yuin/goldmark/blob/b611cd333a492416b56aa8d94b04a67bf0096ab2/renderer/html/html.go#L404
+// https://github.com/yezige/goldmark/blob/b611cd333a492416b56aa8d94b04a67bf0096ab2/renderer/html/html.go#L404
 func (r *hookedRenderer) renderLinkDefault(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	n := node.(*ast.Link)
 	if entering {
@@ -362,7 +362,7 @@ func (r *hookedRenderer) renderAutoLink(w util.BufWriter, source []byte, node as
 }
 
 // Fall back to the default Goldmark render funcs. Method below borrowed from:
-// https://github.com/yuin/goldmark/blob/5588d92a56fe1642791cf4aa8e9eae8227cfeecd/renderer/html/html.go#L439
+// https://github.com/yezige/goldmark/blob/5588d92a56fe1642791cf4aa8e9eae8227cfeecd/renderer/html/html.go#L439
 func (r *hookedRenderer) renderAutoLinkDefault(w util.BufWriter, source []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {
 	n := node.(*ast.AutoLink)
 	if !entering {

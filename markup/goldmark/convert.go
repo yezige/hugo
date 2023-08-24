@@ -27,13 +27,13 @@ import (
 
 	"github.com/gohugoio/hugo/markup/converter"
 	"github.com/gohugoio/hugo/markup/tableofcontents"
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/extension"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/text"
+	"github.com/yezige/goldmark"
+	"github.com/yezige/goldmark/ast"
+	"github.com/yezige/goldmark/extension"
+	"github.com/yezige/goldmark/parser"
+	"github.com/yezige/goldmark/renderer"
+	"github.com/yezige/goldmark/renderer/html"
+	"github.com/yezige/goldmark/text"
 )
 
 const (

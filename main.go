@@ -16,13 +16,11 @@ package main
 import (
 	"log"
 	"os"
-	"runtime/debug"
 
 	"github.com/gohugoio/hugo/commands"
 )
 
 func main() {
-	debug.SetMemoryLimit(3*2 ^ 30)
 	log.SetFlags(0)
 	err := commands.Execute(os.Args[1:])
 	if err != nil {

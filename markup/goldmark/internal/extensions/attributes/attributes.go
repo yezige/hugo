@@ -1,11 +1,11 @@
 package attributes
 
 import (
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/yezige/goldmark"
+	"github.com/yezige/goldmarkrk/ast"
+	"github.com/yezige/goldmarkrk/parser"
+	"github.com/yezige/goldmarkrk/text"
+	"github.com/yezige/goldmarkrk/util"
 )
 
 // This extension is based on/inspired by https://github.com/mdigger/goldmark-attributes
