@@ -2,10 +2,10 @@ package attributes
 
 import (
 	"github.com/yezige/goldmark"
-	"github.com/yezige/goldmarkrk/ast"
-	"github.com/yezige/goldmarkrk/parser"
-	"github.com/yezige/goldmarkrk/text"
-	"github.com/yezige/goldmarkrk/util"
+	"github.com/yezige/goldmark/ast"
+	"github.com/yezige/goldmark/parser"
+	"github.com/yezige/goldmark/text"
+	"github.com/yezige/goldmark/util"
 )
 
 // This extension is based on/inspired by https://github.com/mdigger/goldmark-attributes

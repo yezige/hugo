@@ -27,11 +27,11 @@ import (
 	"github.com/gohugoio/hugo/markup/highlight/chromalexers"
 	"github.com/gohugoio/hugo/markup/internal/attributes"
 	"github.com/yezige/goldmark"
-	"github.com/yezige/goldmarkrk/ast"
-	"github.com/yezige/goldmarkrk/parser"
-	"github.com/yezige/goldmarkrk/renderer"
-	"github.com/yezige/goldmarkrk/text"
-	"github.com/yezige/goldmarkrk/util"
+	"github.com/yezige/goldmark/ast"
+	"github.com/yezige/goldmark/parser"
+	"github.com/yezige/goldmark/renderer"
+	"github.com/yezige/goldmark/text"
+	"github.com/yezige/goldmark/util"
 )
 
 type (
