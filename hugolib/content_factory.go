@@ -21,12 +21,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/common/htime"
+	"github.com/yezige/hugo/helpers"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/source"
 
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/resources/page"
 
 	"github.com/spf13/afero"
 )

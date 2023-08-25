@@ -26,12 +26,12 @@ import (
 
 	"github.com/bep/golibsass/libsass"
 	"github.com/bep/golibsass/libsass/libsasserrors"
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/internal/sass"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/media"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/resource_transformers/tocss/internal/sass"
 )
 
 // Used in tests. This feature requires Hugo to be built with the extended tag.
@@ -164,7 +164,7 @@ func (t *toCSSTransformation) Transform(ctx *resources.ResourceTransformationCtx
 		}
 
 		// This needs to be Unix-style slashes, even on Windows.
-		// See https://github.com/gohugoio/hugo/issues/4968
+		// See https://github.com/yezige/hugo/issues/4968
 		sourcePath = filepath.ToSlash(sourcePath)
 
 		// This is a workaround for what looks like a bug in Libsass. But
@@ -187,7 +187,7 @@ func (c *Client) toCSS(options libsass.Options, dst io.Writer, src io.Reader) (l
 
 	in := helpers.ReaderToString(src)
 
-	// See https://github.com/gohugoio/hugo/issues/7059
+	// See https://github.com/yezige/hugo/issues/7059
 	// We need to preserve the regular CSS imports. This is by far
 	// a perfect solution, and only works for the main entry file, but
 	// that should cover many use cases, e.g. using SCSS as a preprocessor

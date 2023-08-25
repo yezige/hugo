@@ -16,8 +16,8 @@ package transform
 import (
 	"context"
 
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/tpl/internal"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/tpl/internal"
 )
 
 const name = "transform"

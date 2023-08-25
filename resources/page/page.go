@@ -19,21 +19,21 @@ import (
 	"context"
 	"html/template"
 
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/tableofcontents"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/tpl"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/compare"
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/compare"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/navigation"
-	"github.com/gohugoio/hugo/related"
-	"github.com/gohugoio/hugo/resources/resource"
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/navigation"
+	"github.com/yezige/hugo/related"
+	"github.com/yezige/hugo/resources/resource"
+	"github.com/yezige/hugo/source"
 )
 
 // Clear clears any global package state.

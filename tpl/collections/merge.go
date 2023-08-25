@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/hreflect"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/hreflect"
+	"github.com/yezige/hugo/common/maps"
 
 	"errors"
 )

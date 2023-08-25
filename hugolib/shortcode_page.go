@@ -17,7 +17,7 @@ import (
 	"context"
 	"html/template"
 
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/resources/page"
 )
 
 // A placeholder for the TableOfContents markup. This is what we pass to the Goldmark etc. renderers.

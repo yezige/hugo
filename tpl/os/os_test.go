@@ -17,8 +17,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/tpl/os"
+	"github.com/yezige/hugo/hugolib"
+	"github.com/yezige/hugo/tpl/os"
 
 	qt "github.com/frankban/quicktest"
 )

@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/paths"
 )
 
 func TestGetByType(t *testing.T) {
@@ -124,7 +124,7 @@ func TestFromStringAndExt(t *testing.T) {
 }
 
 // Add a test for the SVG case
-// https://github.com/gohugoio/hugo/issues/4920
+// https://github.com/yezige/hugo/issues/4920
 func TestFromExtensionMultipleSuffixes(t *testing.T) {
 	c := qt.New(t)
 	tp, si, found := DefaultTypes.GetBySuffix("svg")

@@ -7,8 +7,8 @@ package template
 import (
 	"errors"
 	"fmt"
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/fmtsort"
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate/parse"
+	"github.com/yezige/hugo/tpl/internal/go_templates/fmtsort"
+	"github.com/yezige/hugo/tpl/internal/go_templates/texttemplate/parse"
 	"io"
 	"reflect"
 	"runtime"

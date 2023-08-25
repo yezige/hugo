@@ -22,13 +22,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 
-	hglob "github.com/gohugoio/hugo/hugofs/glob"
+	hglob "github.com/yezige/hugo/hugofs/glob"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/cache/filecache"
+	"github.com/yezige/hugo/cache/filecache"
 
 	"github.com/BurntSushi/locker"
 )

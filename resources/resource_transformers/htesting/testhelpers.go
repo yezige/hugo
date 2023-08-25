@@ -16,11 +16,11 @@ package htesting
 import (
 	"path/filepath"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/resources"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/resources"
 	"github.com/spf13/afero"
 )
 

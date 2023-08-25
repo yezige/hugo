@@ -21,10 +21,10 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/common/hreflect"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/common/hreflect"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/resources/page"
 
 	"github.com/gohugoio/go-i18n/v2/i18n"
 )

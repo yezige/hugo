@@ -21,11 +21,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/parser"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/types"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/parser"
+	"github.com/yezige/hugo/parser/metadecoders"
 	"github.com/mitchellh/mapstructure"
 )
 

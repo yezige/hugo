@@ -19,7 +19,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/yezige/hugo/common/hugio"
 	"github.com/spf13/cast"
 	"github.com/yezige/goldmark/ast"
 	"github.com/yezige/goldmark/util"

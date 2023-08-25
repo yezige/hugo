@@ -27,14 +27,14 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/hugo"
+	"github.com/yezige/hugo/common/loggers"
 
 	"github.com/spf13/afero"
 
 	"github.com/jdkato/prose/transform"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
+	bp "github.com/yezige/hugo/bufferpool"
 	"github.com/spf13/pflag"
 )
 

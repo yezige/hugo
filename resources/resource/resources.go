@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/yezige/hugo/hugofs/glob"
 	"github.com/spf13/cast"
 )
 

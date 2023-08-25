@@ -19,10 +19,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/common/hugo"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 	"github.com/mitchellh/mapstructure"
 )
 

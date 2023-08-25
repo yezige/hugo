@@ -20,18 +20,18 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohugoio/hugo/output/layouts"
+	"github.com/yezige/hugo/output/layouts"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/tpl"
 
 	"errors"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/output"
 
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/page/pagemeta"
+	"github.com/yezige/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/page/pagemeta"
 )
 
 type siteRenderContext struct {

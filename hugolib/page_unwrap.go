@@ -16,7 +16,7 @@ package hugolib
 import (
 	"fmt"
 
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/resources/page"
 )
 
 // Wraps a Page.

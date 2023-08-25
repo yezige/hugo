@@ -16,7 +16,7 @@ package collections
 import (
 	"errors"
 
-	"github.com/gohugoio/hugo/common/collections"
+	"github.com/yezige/hugo/common/collections"
 )
 
 // Append appends args up to the last one to the slice in the last argument.

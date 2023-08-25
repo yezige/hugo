@@ -5048,7 +5048,7 @@ code, .code, pre code, .highlight pre  {
   font-family: baskerville,
                serif;
 }
-/* pagination.html: https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/template_embedded.go#L117 */
+/* pagination.html: https://github.com/yezige/hugo/blob/master/tpl/tplimpl/template_embedded.go#L117 */
 .pagination {
   margin: 3rem 0;
 }

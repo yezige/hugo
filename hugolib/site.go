@@ -27,45 +27,45 @@ import (
 	"time"
 
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/htime"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/common/types"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/identity"
+	"github.com/yezige/hugo/identity"
 
-	"github.com/gohugoio/hugo/markup/converter/hooks"
+	"github.com/yezige/hugo/markup/converter/hooks"
 
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/converter"
 
-	"github.com/gohugoio/hugo/hugofs/files"
-	hglob "github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/yezige/hugo/hugofs/files"
+	hglob "github.com/yezige/hugo/hugofs/glob"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/common/text"
+	"github.com/yezige/hugo/common/text"
 
-	"github.com/gohugoio/hugo/publisher"
+	"github.com/yezige/hugo/publisher"
 
-	"github.com/gohugoio/hugo/langs"
+	"github.com/yezige/hugo/langs"
 
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/page"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/lazy"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/lazy"
 
 	"github.com/fsnotify/fsnotify"
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/navigation"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/source"
-	"github.com/gohugoio/hugo/tpl"
+	bp "github.com/yezige/hugo/bufferpool"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/navigation"
+	"github.com/yezige/hugo/output"
+	"github.com/yezige/hugo/source"
+	"github.com/yezige/hugo/tpl"
 
 	"github.com/spf13/afero"
 )

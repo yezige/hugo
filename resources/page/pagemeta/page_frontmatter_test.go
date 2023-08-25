@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/testconfig"
 
-	"github.com/gohugoio/hugo/resources/page/pagemeta"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/page/pagemeta"
+	"github.com/yezige/hugo/resources/resource"
 
 	qt "github.com/frankban/quicktest"
 )

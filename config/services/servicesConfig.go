@@ -14,7 +14,7 @@
 package services
 
 import (
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 	"github.com/mitchellh/mapstructure"
 )
 

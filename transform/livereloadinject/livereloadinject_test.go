@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/transform"
+	"github.com/yezige/hugo/transform"
 )
 
 func TestLiveReloadInject(t *testing.T) {

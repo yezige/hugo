@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/resource"
 	"github.com/google/go-cmp/cmp"
 
 	qt "github.com/frankban/quicktest"
@@ -66,7 +66,7 @@ func TestDefaultSort(t *testing.T) {
 	c.Assert(p[2].LinkTitle(), qt.Equals, "cl")
 }
 
-// https://github.com/gohugoio/hugo/issues/4953
+// https://github.com/yezige/hugo/issues/4953
 func TestSortByLinkTitle(t *testing.T) {
 	t.Parallel()
 	c := qt.New(t)

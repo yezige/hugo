@@ -18,8 +18,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/math"
+	"github.com/yezige/hugo/common/collections"
+	"github.com/yezige/hugo/common/math"
 )
 
 // Scratch is a writable context used for stateful operations in Page/Node rendering.

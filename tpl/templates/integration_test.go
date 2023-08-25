@@ -16,7 +16,7 @@ package templates_test
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/hugolib"
 )
 
 func TestExists(t *testing.T) {

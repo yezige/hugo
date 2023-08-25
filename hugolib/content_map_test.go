@@ -19,13 +19,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/htesting/hqt"
+	"github.com/yezige/hugo/htesting/hqt"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 	"github.com/spf13/afero"
 
 	qt "github.com/frankban/quicktest"

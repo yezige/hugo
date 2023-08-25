@@ -16,7 +16,7 @@ package template
 import (
 	"sync/atomic"
 
-	template "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
+	template "github.com/yezige/hugo/tpl/internal/go_templates/texttemplate"
 )
 
 // See https://github.com/golang/go/issues/59234

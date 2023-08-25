@@ -18,19 +18,19 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/common/herrors"
+	"github.com/yezige/hugo/common/herrors"
 	"golang.org/x/text/language"
 	yaml "gopkg.in/yaml.v2"
 
 	"github.com/gohugoio/go-i18n/v2/i18n"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 	toml "github.com/pelletier/go-toml/v2"
 
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/source"
 )
 
 // TranslationProvider provides translation handling, i.e. loading
@@ -110,7 +110,7 @@ func addTranslationFile(bundle *i18n.Bundle, r source.File) error {
 	_, err = bundle.ParseMessageFileBytes(b, name)
 	if err != nil {
 		if strings.Contains(err.Error(), "no plural rule") {
-			// https://github.com/gohugoio/hugo/issues/7798
+			// https://github.com/yezige/hugo/issues/7798
 			name = artificialLangTagPrefix + name
 			_, err = bundle.ParseMessageFileBytes(b, name)
 			if err == nil {

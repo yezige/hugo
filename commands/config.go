@@ -23,11 +23,11 @@ import (
 	"time"
 
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config/allconfig"
-	"github.com/gohugoio/hugo/modules"
-	"github.com/gohugoio/hugo/parser"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/config/allconfig"
+	"github.com/yezige/hugo/modules"
+	"github.com/yezige/hugo/parser"
+	"github.com/yezige/hugo/parser/metadecoders"
 )
 
 // newConfigCommand creates a new config command and its subcommands.

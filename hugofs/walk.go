@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/loggers"
 
 	"errors"
 

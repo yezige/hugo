@@ -26,8 +26,8 @@ import (
 	"os/exec"
 
 	"github.com/cli/safeexec"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/security"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/security"
 )
 
 var WithDir = func(dir string) func(c *commandeer) {

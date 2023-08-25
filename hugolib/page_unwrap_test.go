@@ -17,7 +17,7 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/resources/page"
 )
 
 func TestUnwrapPage(t *testing.T) {

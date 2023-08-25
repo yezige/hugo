@@ -16,14 +16,14 @@ package hugolib
 import (
 	"sync"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/compare"
-	"github.com/gohugoio/hugo/lazy"
-	"github.com/gohugoio/hugo/navigation"
-	"github.com/gohugoio/hugo/output/layouts"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/compare"
+	"github.com/yezige/hugo/lazy"
+	"github.com/yezige/hugo/navigation"
+	"github.com/yezige/hugo/output/layouts"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/resource"
+	"github.com/yezige/hugo/source"
 )
 
 type treeRefProvider interface {

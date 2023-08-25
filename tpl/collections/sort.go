@@ -20,9 +20,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/langs"
-	"github.com/gohugoio/hugo/tpl/compare"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/langs"
+	"github.com/yezige/hugo/tpl/compare"
 	"github.com/spf13/cast"
 )
 

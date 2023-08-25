@@ -14,9 +14,9 @@
 package hugolib
 
 import (
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/output"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 func newPageOutput(

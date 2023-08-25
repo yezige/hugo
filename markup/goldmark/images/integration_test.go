@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/hugolib"
 )
 
 func TestDisableWrapStandAloneImageWithinParagraph(t *testing.T) {

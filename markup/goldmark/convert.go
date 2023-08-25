@@ -17,16 +17,16 @@ package goldmark
 import (
 	"bytes"
 
-	"github.com/gohugoio/hugo/identity"
+	"github.com/yezige/hugo/identity"
 
-	"github.com/gohugoio/hugo/markup/goldmark/codeblocks"
-	"github.com/gohugoio/hugo/markup/goldmark/goldmark_config"
-	"github.com/gohugoio/hugo/markup/goldmark/images"
-	"github.com/gohugoio/hugo/markup/goldmark/internal/extensions/attributes"
-	"github.com/gohugoio/hugo/markup/goldmark/internal/render"
+	"github.com/yezige/hugo/markup/goldmark/codeblocks"
+	"github.com/yezige/hugo/markup/goldmark/goldmark_config"
+	"github.com/yezige/hugo/markup/goldmark/images"
+	"github.com/yezige/hugo/markup/goldmark/internal/extensions/attributes"
+	"github.com/yezige/hugo/markup/goldmark/internal/render"
 
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/yezige/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/tableofcontents"
 	"github.com/yezige/goldmark"
 	"github.com/yezige/goldmark/ast"
 	"github.com/yezige/goldmark/extension"

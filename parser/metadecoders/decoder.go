@@ -22,8 +22,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/maps"
 	"github.com/niklasfasching/go-org/org"
 
 	xml "github.com/clbanning/mxj/v2"

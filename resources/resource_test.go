@@ -16,9 +16,9 @@ package resources_test
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/resources"
+	"github.com/yezige/hugo/resources"
 
-	"github.com/gohugoio/hugo/media"
+	"github.com/yezige/hugo/media"
 
 	qt "github.com/frankban/quicktest"
 )

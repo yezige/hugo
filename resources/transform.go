@@ -23,22 +23,22 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/resources/images"
-	"github.com/gohugoio/hugo/resources/images/exif"
+	"github.com/yezige/hugo/resources/images"
+	"github.com/yezige/hugo/resources/images/exif"
 	"github.com/spf13/afero"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
+	bp "github.com/yezige/hugo/bufferpool"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/resources/internal"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/resources/internal"
+	"github.com/yezige/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/media"
+	"github.com/yezige/hugo/media"
 )
 
 var (

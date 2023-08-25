@@ -20,10 +20,10 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/media"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 // Client contains methods perform concatenation and other bundling related

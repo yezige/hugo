@@ -16,7 +16,7 @@ package hugolib
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 )
 
 const robotTxtTemplate = `User-agent: Googlebot

@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/cfg"
+	"github.com/yezige/hugo/tpl/internal/go_templates/cfg"
 )
 
 // Builder reports the name of the builder running this test

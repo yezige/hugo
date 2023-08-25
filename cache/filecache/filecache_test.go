@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/cache/filecache"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/helpers"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 	"github.com/spf13/afero"
 
 	qt "github.com/frankban/quicktest"

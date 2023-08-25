@@ -10,8 +10,8 @@ import (
 	"html"
 	"io"
 
-	template "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate/parse"
+	template "github.com/yezige/hugo/tpl/internal/go_templates/texttemplate"
+	"github.com/yezige/hugo/tpl/internal/go_templates/texttemplate/parse"
 )
 
 // escapeTemplate rewrites the named template, which must be

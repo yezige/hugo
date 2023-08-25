@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/common/paths"
+	"github.com/yezige/hugo/deps"
 	"github.com/spf13/cast"
 )
 

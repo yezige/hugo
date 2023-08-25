@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/htesting"
 
 	"github.com/spf13/afero"
 

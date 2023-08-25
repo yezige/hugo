@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/internal"
-	"github.com/gohugoio/hugo/resources/resource"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/internal"
+	"github.com/yezige/hugo/resources/resource"
+	"github.com/yezige/hugo/tpl"
 )
 
 // Client contains methods to perform template processing of Resource objects.

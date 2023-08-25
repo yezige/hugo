@@ -16,8 +16,8 @@ package hugolib
 import (
 	"sync"
 
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/page"
 )
 
 type pageData struct {

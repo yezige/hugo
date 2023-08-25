@@ -22,9 +22,9 @@ import (
 
 	"github.com/bep/logg"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/htesting"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/hugolib"
 )
 
 const postCSSIntegrationTestFiles = `
@@ -86,7 +86,7 @@ Styles Content: Len: {{ len $styles.Content }}|
 -- postcss.config.js --
 console.error("Hugo Environment:", process.env.HUGO_ENVIRONMENT );
 console.error("Hugo PublishDir:", process.env.HUGO_PUBLISHDIR );
-// https://github.com/gohugoio/hugo/issues/7656
+// https://github.com/yezige/hugo/issues/7656
 console.error("package.json:", process.env.HUGO_FILE_PACKAGE_JSON );
 console.error("PostCSS Config File:", process.env.HUGO_FILE_POSTCSS_CONFIG_JS );
 

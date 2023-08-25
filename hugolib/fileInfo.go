@@ -17,13 +17,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/source"
 )
 
 // fileInfo implements the File and ReadableFile interface.

@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/resources/kinds"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/resources/kinds"
 
-	"github.com/gohugoio/hugo/parser/pageparser"
+	"github.com/yezige/hugo/parser/pageparser"
 
 	qt "github.com/frankban/quicktest"
 )
@@ -490,7 +490,7 @@ C-%s`
 	)
 }
 
-// https://github.com/gohugoio/hugo/issues/5833
+// https://github.com/yezige/hugo/issues/5833
 func TestShortcodeParentResourcesOnRebuild(t *testing.T) {
 	t.Parallel()
 
@@ -725,7 +725,7 @@ TOC: {{ .TableOfContents }}
 	}
 }
 
-// https://github.com/gohugoio/hugo/issues/5863
+// https://github.com/yezige/hugo/issues/5863
 func TestShortcodeNamespaced(t *testing.T) {
 	t.Parallel()
 	c := qt.New(t)
@@ -754,7 +754,7 @@ title: "Hugo Rocks!"
 	)
 }
 
-// https://github.com/gohugoio/hugo/issues/6504
+// https://github.com/yezige/hugo/issues/6504
 func TestShortcodeEmoji(t *testing.T) {
 	t.Parallel()
 
@@ -859,7 +859,7 @@ title: "Hugo Rocks!"
 
 }
 
-// https://github.com/gohugoio/hugo/issues/6857
+// https://github.com/yezige/hugo/issues/6857
 func TestShortcodeNoInner(t *testing.T) {
 	t.Parallel()
 

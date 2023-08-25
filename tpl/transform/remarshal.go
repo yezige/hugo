@@ -6,8 +6,8 @@ import (
 
 	"errors"
 
-	"github.com/gohugoio/hugo/parser"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/parser"
+	"github.com/yezige/hugo/parser/metadecoders"
 	"github.com/spf13/cast"
 )
 

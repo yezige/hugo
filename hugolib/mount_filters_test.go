@@ -19,11 +19,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/htesting"
+	"github.com/yezige/hugo/hugofs"
 
 	qt "github.com/frankban/quicktest"
 )

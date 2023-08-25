@@ -24,11 +24,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/publisher"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/output"
+	"github.com/yezige/hugo/publisher"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/tpl"
 )
 
 type aliasHandler struct {

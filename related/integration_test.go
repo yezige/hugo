@@ -18,7 +18,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/hugolib"
 )
 
 func TestRelatedFragments(t *testing.T) {

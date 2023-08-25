@@ -17,17 +17,17 @@ import (
 	"html/template"
 	"time"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config/privacy"
-	"github.com/gohugoio/hugo/config/services"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/config/privacy"
+	"github.com/yezige/hugo/config/services"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/tpl"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/langs"
-	"github.com/gohugoio/hugo/navigation"
+	"github.com/yezige/hugo/common/hugo"
+	"github.com/yezige/hugo/langs"
+	"github.com/yezige/hugo/navigation"
 )
 
 // Site represents a site. There can be multople sites in a multilingual setup.

@@ -19,12 +19,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/herrors"
+	"github.com/yezige/hugo/common/herrors"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/parser/metadecoders"
 	"github.com/spf13/afero"
 )
 

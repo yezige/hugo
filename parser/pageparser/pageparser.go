@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/parser/metadecoders"
 )
 
 // Result holds the parse result.

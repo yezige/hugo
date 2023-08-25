@@ -17,12 +17,12 @@ import (
 	"context"
 	"image"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources/images"
-	"github.com/gohugoio/hugo/resources/images/exif"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/media"
+	"github.com/yezige/hugo/resources/images"
+	"github.com/yezige/hugo/resources/images/exif"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 var (

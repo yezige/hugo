@@ -20,7 +20,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gohugoio/hugo/common/hreflect"
+	"github.com/yezige/hugo/common/hreflect"
 )
 
 // Regexp definitions

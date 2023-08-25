@@ -17,7 +17,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/hugolib"
 )
 
 func TestUnmarshal(t *testing.T) {

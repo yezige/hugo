@@ -16,8 +16,8 @@ package navigation
 import (
 	"fmt"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/common/types"
 	"github.com/mitchellh/mapstructure"
 
 	"github.com/spf13/cast"

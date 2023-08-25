@@ -19,7 +19,7 @@ import (
 	"github.com/spf13/cast"
 	"github.com/yezige/goldmark/util"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/deps"
 )
 
 // New returns a new instance of the debug-namespaced template functions.

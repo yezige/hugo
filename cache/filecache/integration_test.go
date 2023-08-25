@@ -21,8 +21,8 @@ import (
 
 	"github.com/bep/logg"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/htesting"
+	"github.com/yezige/hugo/hugolib"
 )
 
 // See issue #10781. That issue wouldn't have been triggered if we kept

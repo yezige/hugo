@@ -24,10 +24,10 @@ import (
 	"html/template"
 	"io"
 
-	"github.com/gohugoio/hugo/resources/internal"
+	"github.com/yezige/hugo/resources/internal"
 
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 const defaultHashAlgo = "sha256"

@@ -24,7 +24,7 @@ import (
 
 	"github.com/bep/logg"
 	"github.com/bep/logg/handlers/multi"
-	"github.com/gohugoio/hugo/common/terminal"
+	"github.com/yezige/hugo/common/terminal"
 )
 
 var (

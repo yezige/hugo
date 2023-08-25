@@ -17,8 +17,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/parser/pageparser"
+	"github.com/yezige/hugo/output"
+	"github.com/yezige/hugo/parser/pageparser"
 )
 
 var (

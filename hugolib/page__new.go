@@ -20,15 +20,15 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/gohugoio/hugo/common/hugo"
+	"github.com/yezige/hugo/common/hugo"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/output"
 
-	"github.com/gohugoio/hugo/lazy"
+	"github.com/yezige/hugo/lazy"
 
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/resources/page"
 )
 
 var pageIdCounter atomic.Int64

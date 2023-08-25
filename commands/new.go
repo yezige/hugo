@@ -22,12 +22,12 @@ import (
 	"strings"
 
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/create"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/parser"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/common/htime"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/create"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/parser"
+	"github.com/yezige/hugo/parser/metadecoders"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
 )
@@ -339,7 +339,7 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.`)
 func (c *newCommand) createThemeMD(fs afero.Fs, inpath string) (err error) {
 
 	by := []byte(`# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+# See https://github.com/yezige/hugoThemes#themetoml for an example
 
 name = "` + strings.Title(helpers.MakeTitle(filepath.Base(inpath))) + `"
 license = "MIT"

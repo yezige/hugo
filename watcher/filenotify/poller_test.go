@@ -12,7 +12,7 @@ import (
 
 	qt "github.com/frankban/quicktest"
 	"github.com/fsnotify/fsnotify"
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/yezige/hugo/htesting"
 )
 
 const (

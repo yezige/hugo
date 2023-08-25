@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/source"
 )
 
 func TestFileInfo(t *testing.T) {

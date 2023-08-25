@@ -16,8 +16,8 @@ package images
 import (
 	"image"
 
-	"github.com/gohugoio/hugo/resources/images/exif"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/images/exif"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 // ImageResource represents an image resource.

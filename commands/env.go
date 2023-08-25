@@ -18,7 +18,7 @@ import (
 	"runtime"
 
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/common/hugo"
+	"github.com/yezige/hugo/common/hugo"
 )
 
 func newEnvCommand() simplecobra.Commander {

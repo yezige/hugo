@@ -25,22 +25,22 @@ import (
 	"sync"
 
 	"github.com/bep/overlayfs"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/yezige/hugo/htesting"
+	"github.com/yezige/hugo/hugofs/glob"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/common/types"
 
 	"github.com/rogpeppe/go-internal/lockedfile"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/modules"
+	"github.com/yezige/hugo/modules"
 
-	hpaths "github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugolib/paths"
+	hpaths "github.com/yezige/hugo/common/paths"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/hugolib/paths"
 	"github.com/spf13/afero"
 )
 

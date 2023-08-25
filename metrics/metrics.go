@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/compare"
-	"github.com/gohugoio/hugo/identity"
+	"github.com/yezige/hugo/common/types"
+	"github.com/yezige/hugo/compare"
+	"github.com/yezige/hugo/identity"
 )
 
 // The Provider interface defines an interface for measuring metrics.

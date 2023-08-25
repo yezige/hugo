@@ -23,8 +23,8 @@ import (
 	"strings"
 
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/helpers"
 	"github.com/spf13/afero"
 	"github.com/spf13/pflag"
 )

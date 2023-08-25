@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/markup/asciidocext/asciidocext_config"
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/internal"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/markup/asciidocext/asciidocext_config"
+	"github.com/yezige/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/internal"
+	"github.com/yezige/hugo/markup/tableofcontents"
 	"golang.org/x/net/html"
 )
 

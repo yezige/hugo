@@ -23,8 +23,8 @@ import (
 
 	qt "github.com/frankban/quicktest"
 
-	"github.com/gohugoio/hugo/htesting/hqt"
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/htesting/hqt"
+	"github.com/yezige/hugo/hugolib"
 )
 
 func TestInclude(t *testing.T) {

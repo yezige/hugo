@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/gohugoio/hugo/compare"
-	"github.com/gohugoio/hugo/langs"
+	"github.com/yezige/hugo/compare"
+	"github.com/yezige/hugo/langs"
 )
 
 // The TaxonomyList is a list of all taxonomies and their values

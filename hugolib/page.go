@@ -24,34 +24,34 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/output/layouts"
-	"github.com/gohugoio/hugo/related"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/media"
+	"github.com/yezige/hugo/output"
+	"github.com/yezige/hugo/output/layouts"
+	"github.com/yezige/hugo/related"
 
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/yezige/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/tableofcontents"
 
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/tpl"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/parser/metadecoders"
 
-	"github.com/gohugoio/hugo/parser/pageparser"
+	"github.com/yezige/hugo/parser/pageparser"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/source"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/common/collections"
+	"github.com/yezige/hugo/common/text"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 var (

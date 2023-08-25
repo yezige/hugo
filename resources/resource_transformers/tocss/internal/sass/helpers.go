@@ -19,7 +19,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/types/css"
+	"github.com/yezige/hugo/common/types/css"
 )
 
 const (

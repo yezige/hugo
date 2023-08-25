@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/transform"
+	"github.com/yezige/hugo/common/hugo"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/transform"
 )
 
 var (

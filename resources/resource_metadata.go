@@ -18,13 +18,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gohugoio/hugo/hugofs/glob"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/hugofs/glob"
+	"github.com/yezige/hugo/media"
+	"github.com/yezige/hugo/resources/resource"
 
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 )
 
 var (

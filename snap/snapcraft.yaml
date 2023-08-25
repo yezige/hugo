@@ -24,9 +24,9 @@ description: |
   content, structure, behavior, and presentation. Then deploy the site to your
   host, or push changes to your Git provider for automated builds and
   deployment.
-issues: https://github.com/gohugoio/hugo/issues
+issues: https://github.com/yezige/hugo/issues
 license: "Apache-2.0"
-source-code: https://github.com/gohugoio/hugo.git
+source-code: https://github.com/yezige/hugo.git
 website: https://gohugo.io/
 
 package-repositories:
@@ -145,7 +145,7 @@ parts:
 
       HUGO_BUILD_TAGS="extended"
       echo " * Building hugo (HUGO_BUILD_TAGS=\"$HUGO_BUILD_TAGS\")..."
-      go build -v -ldflags "-X github.com/gohugoio/hugo/common/hugo.vendorInfo=snap:$(git describe --tags --always --match 'v[0-9]*' | sed 's/^v//; s/-/+git/; s/-g/./')" -tags "$HUGO_BUILD_TAGS"
+      go build -v -ldflags "-X github.com/yezige/hugo/common/hugo.vendorInfo=snap:$(git describe --tags --always --match 'v[0-9]*' | sed 's/^v//; s/-/+git/; s/-g/./')" -tags "$HUGO_BUILD_TAGS"
       ./hugo version
       ldd hugo || :
 

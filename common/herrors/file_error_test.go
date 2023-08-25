@@ -20,7 +20,7 @@ import (
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/text"
+	"github.com/yezige/hugo/common/text"
 
 	qt "github.com/frankban/quicktest"
 )

@@ -17,7 +17,7 @@ import (
 	"context"
 
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/releaser"
+	"github.com/yezige/hugo/releaser"
 	"github.com/spf13/cobra"
 )
 

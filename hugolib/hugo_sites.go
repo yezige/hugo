@@ -24,33 +24,33 @@ import (
 	"sync/atomic"
 
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/config/allconfig"
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/yezige/hugo/config/allconfig"
+	"github.com/yezige/hugo/hugofs/glob"
 
 	"github.com/fsnotify/fsnotify"
 
-	"github.com/gohugoio/hugo/identity"
+	"github.com/yezige/hugo/identity"
 
 	radix "github.com/armon/go-radix"
 
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/output"
+	"github.com/yezige/hugo/parser/metadecoders"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/common/para"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/common/hugo"
+	"github.com/yezige/hugo/common/para"
+	"github.com/yezige/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/source"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/lazy"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/lazy"
 
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/page/pagemeta"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/page/pagemeta"
+	"github.com/yezige/hugo/tpl"
 )
 
 // HugoSites represents the sites to build. Each site represents a language.

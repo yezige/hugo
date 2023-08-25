@@ -24,8 +24,8 @@ import (
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/para"
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/yezige/hugo/common/para"
+	"github.com/yezige/hugo/htesting"
 
 	"github.com/spf13/afero"
 

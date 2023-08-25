@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/tpl/transform"
+	"github.com/yezige/hugo/hugolib"
+	"github.com/yezige/hugo/tpl/transform"
 
 	qt "github.com/frankban/quicktest"
 )

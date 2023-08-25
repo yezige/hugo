@@ -24,17 +24,17 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/common/loggers"
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/converter/hooks"
+	"github.com/yezige/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/converter/hooks"
 
-	"github.com/gohugoio/hugo/markup"
+	"github.com/yezige/hugo/markup"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 )
 
 var (

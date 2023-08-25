@@ -25,9 +25,9 @@ import (
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/resources/kinds"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/resources/kinds"
 )
 
 // PermalinkExpander holds permalin mappings per section.

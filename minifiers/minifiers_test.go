@@ -20,11 +20,11 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/minifiers"
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/media"
+	"github.com/yezige/hugo/minifiers"
+	"github.com/yezige/hugo/output"
 	"github.com/spf13/afero"
 	"github.com/tdewolff/minify/v2/html"
 )
@@ -153,9 +153,9 @@ func TestBugs(t *testing.T) {
 		rawString         string
 		expectedMinString string
 	}{
-		// https://github.com/gohugoio/hugo/issues/5506
+		// https://github.com/yezige/hugo/issues/5506
 		{media.Builtin.CSSType, " body { color: rgba(000, 000, 000, 0.7); }", "body{color:rgba(0,0,0,.7)}"},
-		// https://github.com/gohugoio/hugo/issues/8332
+		// https://github.com/yezige/hugo/issues/8332
 		{media.Builtin.HTMLType, "<i class='fas fa-tags fa-fw'></i> Tags", `<i class='fas fa-tags fa-fw'></i> Tags`},
 	} {
 		var b bytes.Buffer

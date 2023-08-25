@@ -23,17 +23,17 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/common/loggers"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/resources/internal"
+	"github.com/yezige/hugo/common/hugo"
+	"github.com/yezige/hugo/resources/internal"
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 // Options from https://babeljs.io/docs/en/options
@@ -159,7 +159,7 @@ func (t *babelTransformation) Transform(ctx *resources.ResourceTransformationCtx
 	cmdArgs = append(cmdArgs, "--filename="+ctx.SourcePath)
 
 	// Create compile into a real temp file:
-	// 1. separate stdout/stderr messages from babel (https://github.com/gohugoio/hugo/issues/8136)
+	// 1. separate stdout/stderr messages from babel (https://github.com/yezige/hugo/issues/8136)
 	// 2. allow generation and retrieval of external source map.
 	compileOutput, err := os.CreateTemp("", "compileOut-*.js")
 	if err != nil {

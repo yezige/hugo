@@ -22,19 +22,19 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/yezige/hugo/hugofs/glob"
 
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/common/paths"
 
 	"errors"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/hugolib"
 	"github.com/spf13/afero"
 )
 

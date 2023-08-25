@@ -20,16 +20,16 @@ import (
 	"io"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/yezige/hugo/common/hugio"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 )
 
 const (

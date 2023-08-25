@@ -17,14 +17,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/htime"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 	"github.com/spf13/cast"
 )
 

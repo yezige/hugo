@@ -16,7 +16,7 @@ package goldmark
 import (
 	"bytes"
 
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/yezige/hugo/markup/tableofcontents"
 
 	"github.com/yezige/goldmark"
 	"github.com/yezige/goldmark/ast"

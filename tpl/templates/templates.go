@@ -15,7 +15,7 @@
 package templates
 
 import (
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/deps"
 )
 
 // New returns a new instance of the templates-namespaced template functions.

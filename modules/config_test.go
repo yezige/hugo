@@ -19,9 +19,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/hugo"
+	"github.com/yezige/hugo/common/hugo"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 
 	qt "github.com/frankban/quicktest"
 )

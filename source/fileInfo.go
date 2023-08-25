@@ -21,15 +21,15 @@ import (
 	"time"
 
 	"github.com/bep/gitmap"
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/yezige/hugo/common/hugio"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 )
 
 // fileInfo implements the File interface.

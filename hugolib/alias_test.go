@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/loggers"
 )
 
 const pageWithAlias = `---

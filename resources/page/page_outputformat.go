@@ -18,8 +18,8 @@ package page
 import (
 	"strings"
 
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/media"
+	"github.com/yezige/hugo/output"
 )
 
 // OutputFormats holds a list of the relevant output formats for a given page.

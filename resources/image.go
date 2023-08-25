@@ -31,18 +31,18 @@ import (
 
 	color_extractor "github.com/marekm4/color-extractor"
 
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/identity"
+	"github.com/yezige/hugo/common/paths"
+	"github.com/yezige/hugo/identity"
 
 	"github.com/disintegration/gift"
 
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/resources/images/exif"
+	"github.com/yezige/hugo/cache/filecache"
+	"github.com/yezige/hugo/resources/images/exif"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/resources/images"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/resources/images"
 
 	// Blind import for image.Decode
 	_ "golang.org/x/image/webp"
@@ -256,7 +256,7 @@ func (i *imageResource) Fill(spec string) (images.ImageResource, error) {
 	}
 
 	if conf.Anchor == 0 && img.Width() == 0 || img.Height() == 0 {
-		// See https://github.com/gohugoio/hugo/issues/7955
+		// See https://github.com/yezige/hugo/issues/7955
 		// Smartcrop fails silently in some rare cases.
 		// Fall back to a center fill.
 		conf.Anchor = gift.CenterAnchor

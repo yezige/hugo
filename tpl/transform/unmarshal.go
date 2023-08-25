@@ -18,16 +18,16 @@ import (
 	"io"
 	"strings"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/yezige/hugo/common/types"
 
 	"github.com/mitchellh/mapstructure"
 
 	"errors"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/parser/metadecoders"
 
 	"github.com/spf13/cast"
 )

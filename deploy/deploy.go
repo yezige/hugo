@@ -37,9 +37,9 @@ import (
 
 	"github.com/dustin/go-humanize"
 	"github.com/gobwas/glob"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/media"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/media"
 	"github.com/spf13/afero"
 	"golang.org/x/text/unicode/norm"
 

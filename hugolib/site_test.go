@@ -23,13 +23,13 @@ import (
 	"testing"
 
 	"github.com/gobuffalo/flect"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/publisher"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/publisher"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/page"
 )
 
 const (
@@ -1075,7 +1075,7 @@ func checkLinkCase(site *Site, link string, currentPage page.Page, relative bool
 	}
 }
 
-// https://github.com/gohugoio/hugo/issues/6952
+// https://github.com/yezige/hugo/issues/6952
 func TestRefIssues(t *testing.T) {
 	b := newTestSitesBuilder(t)
 	b.WithContent(

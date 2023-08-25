@@ -17,9 +17,9 @@ package images
 import (
 	"fmt"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/resources/resource"
 
 	"github.com/disintegration/gift"
 	"github.com/spf13/cast"

@@ -21,11 +21,11 @@ import (
 	"testing"
 
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/allconfig"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/allconfig"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 	"github.com/spf13/afero"
 )
 
@@ -616,7 +616,7 @@ func TestLoadConfigModules(t *testing.T) {
 
 	c := qt.New(t)
 
-	// https://github.com/gohugoio/hugoThemes#themetoml
+	// https://github.com/yezige/hugoThemes#themetoml
 
 	const (
 		// Before Hugo 0.56 each theme/component could have its own theme.toml

@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 
 	qt "github.com/frankban/quicktest"
 )

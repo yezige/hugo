@@ -21,10 +21,10 @@ import (
 
 	"github.com/bep/logg"
 	"github.com/gobwas/glob"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/common/types"
 
-	"github.com/gohugoio/hugo/common/herrors"
+	"github.com/yezige/hugo/common/herrors"
 	"github.com/mitchellh/mapstructure"
 	"github.com/spf13/cast"
 )

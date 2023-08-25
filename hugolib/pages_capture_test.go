@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/source"
 	"github.com/spf13/afero"
 )
 

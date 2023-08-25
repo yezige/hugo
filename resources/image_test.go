@@ -31,22 +31,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/images/webp"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/images/webp"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/yezige/hugo/common/paths"
 
 	"github.com/spf13/afero"
 
 	"github.com/disintegration/gift"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources/images"
+	"github.com/yezige/hugo/media"
+	"github.com/yezige/hugo/resources/images"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/gohugoio/hugo/htesting/hqt"
+	"github.com/yezige/hugo/htesting/hqt"
 
 	qt "github.com/frankban/quicktest"
 )
@@ -204,7 +204,7 @@ func TestImageTransformFormat(t *testing.T) {
 	assertFileCache(c, fileCache, path.Base(imageGif.RelPermalink()), 225, 141)
 }
 
-// https://github.com/gohugoio/hugo/issues/5730
+// https://github.com/yezige/hugo/issues/5730
 func TestImagePermalinkPublishOrder(t *testing.T) {
 	for _, checkOriginalFirst := range []bool{true, false} {
 		name := "OriginalFirst"
@@ -547,7 +547,7 @@ var usesFMA = runtime.GOARCH == "s390x" ||
 // (FMA) instruction to accommodate for floating-point rounding differences
 // with control golden images that were generated on amd64 architecture.
 // See https://golang.org/ref/spec#Floating_point_operators
-// and https://github.com/gohugoio/hugo/issues/6387 for more information.
+// and https://github.com/yezige/hugo/issues/6387 for more information.
 //
 // Borrowed from https://github.com/disintegration/gift/blob/a999ff8d5226e5ab14b64a94fca07c4ac3f357cf/gift_test.go#L598-L625
 // Copyright (c) 2014-2019 Grigory Dryapak

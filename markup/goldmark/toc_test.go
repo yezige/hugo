@@ -17,12 +17,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/markup/converter/hooks"
-	"github.com/gohugoio/hugo/markup/goldmark"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/markup/converter/hooks"
+	"github.com/yezige/hugo/markup/goldmark"
 
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/converter"
 
 	qt "github.com/frankban/quicktest"
 )

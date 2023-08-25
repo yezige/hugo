@@ -25,12 +25,12 @@ import (
 	"github.com/alecthomas/chroma/v2/formatters/html"
 	"github.com/alecthomas/chroma/v2/lexers"
 	"github.com/alecthomas/chroma/v2/styles"
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/markup/converter/hooks"
-	"github.com/gohugoio/hugo/markup/highlight/chromalexers"
-	"github.com/gohugoio/hugo/markup/internal/attributes"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/common/text"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/markup/converter/hooks"
+	"github.com/yezige/hugo/markup/highlight/chromalexers"
+	"github.com/yezige/hugo/markup/internal/attributes"
 )
 
 // Markdown attributes used by the Chroma highlighter.

@@ -9,17 +9,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/resources"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/resources/images"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/resources/images"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/resource"
 	"github.com/spf13/afero"
 )
 

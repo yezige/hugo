@@ -20,8 +20,8 @@ import (
 	"strings"
 
 	"github.com/bep/overlayfs"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/common/paths"
+	"github.com/yezige/hugo/config"
 	"github.com/spf13/afero"
 )
 

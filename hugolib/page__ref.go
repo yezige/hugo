@@ -16,7 +16,7 @@ package hugolib
 import (
 	"fmt"
 
-	"github.com/gohugoio/hugo/common/text"
+	"github.com/yezige/hugo/common/text"
 
 	"github.com/mitchellh/mapstructure"
 )

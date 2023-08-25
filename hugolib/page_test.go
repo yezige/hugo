@@ -23,21 +23,21 @@ import (
 	"time"
 
 	"github.com/bep/clocks"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/markup/asciidocext"
-	"github.com/gohugoio/hugo/markup/rst"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/markup/asciidocext"
+	"github.com/yezige/hugo/markup/rst"
+	"github.com/yezige/hugo/tpl"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/htime"
+	"github.com/yezige/hugo/common/loggers"
 
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/resource"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/deps"
 )
 
 const (
@@ -496,7 +496,7 @@ title: No Date
 ---
 
 `,
-		// https://github.com/gohugoio/hugo/issues/5854
+		// https://github.com/yezige/hugo/issues/5854
 		"with-index-date/_index.md", `---
 title: Date
 date: 2018-01-15
@@ -607,7 +607,7 @@ func TestPageWithSummaryParameter(t *testing.T) {
 }
 
 // Issue #3854
-// Also see https://github.com/gohugoio/hugo/issues/3977
+// Also see https://github.com/yezige/hugo/issues/3977
 func TestPageWithDateFields(t *testing.T) {
 	c := qt.New(t)
 	pageWithDate := `---
@@ -1309,7 +1309,7 @@ title: "HTML Content"
 		"Permalink: http://example.com/nomarkdownforyou/|**Hugo!**|",
 	)
 
-	// https://github.com/gohugoio/hugo/issues/5723
+	// https://github.com/yezige/hugo/issues/5723
 	b.AssertFileContent(
 		"public/manualsummary/index.html",
 		"Single: HTML Content|Hello|en|RelPermalink: /manualsummary/|",
@@ -1318,7 +1318,7 @@ title: "HTML Content"
 	)
 }
 
-// https://github.com/gohugoio/hugo/issues/5381
+// https://github.com/yezige/hugo/issues/5381
 func TestPageManualSummary(t *testing.T) {
 	b := newTestSitesBuilder(t)
 	b.WithSimpleConfigFile()
@@ -1331,7 +1331,7 @@ This is a {{< sc >}}.
 Content.
 `)
 
-	// https://github.com/gohugoio/hugo/issues/5464
+	// https://github.com/yezige/hugo/issues/5464
 	b.WithContent("page-md-only-shortcode.md", `---
 title: "Hugo"
 ---
@@ -1407,7 +1407,7 @@ CONTENT:{{ .Content }}
 	)
 }
 
-// https://github.com/gohugoio/hugo/issues/5478
+// https://github.com/yezige/hugo/issues/5478
 func TestPageWithCommentedOutFrontMatter(t *testing.T) {
 	b := newTestSitesBuilder(t)
 	b.WithSimpleConfigFile()
@@ -1433,7 +1433,7 @@ Content:{{ .Content }}
 	)
 }
 
-// https://github.com/gohugoio/hugo/issues/5781
+// https://github.com/yezige/hugo/issues/5781
 func TestPageWithZeroFile(t *testing.T) {
 	newTestSitesBuilder(t).WithLogger(loggers.NewDefault()).WithSimpleConfigFile().
 		WithTemplatesAdded("index.html", "{{ .File.Filename }}{{ with .File }}{{ .Dir }}{{ end }}").Build(BuildCfg{})
@@ -1638,7 +1638,7 @@ tags:
 	}
 }
 
-// https://github.com/gohugoio/hugo/issues/4675
+// https://github.com/yezige/hugo/issues/4675
 func TestWordCountAndSimilarVsSummary(t *testing.T) {
 	t.Parallel()
 	c := qt.New(t)

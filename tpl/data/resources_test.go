@@ -16,7 +16,7 @@ package data
 import (
 	"bytes"
 
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/loggers"
 
 	"net/http"
 	"net/http/httptest"
@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/config/testconfig"
+	"github.com/yezige/hugo/config/testconfig"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/cache/filecache"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/hugofs"
 	"github.com/spf13/afero"
 )
 

@@ -25,7 +25,7 @@ import (
 	"time"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 	"github.com/spf13/afero"
 )
 

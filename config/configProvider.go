@@ -16,10 +16,10 @@ package config
 import (
 	"time"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/common/urls"
-	"github.com/gohugoio/hugo/langs"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/common/types"
+	"github.com/yezige/hugo/common/urls"
+	"github.com/yezige/hugo/langs"
 )
 
 // AllProvider is a sub set of all config settings.

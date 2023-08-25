@@ -16,7 +16,7 @@ package config
 import (
 	"encoding/json"
 
-	"github.com/gohugoio/hugo/identity"
+	"github.com/yezige/hugo/identity"
 )
 
 func DecodeNamespace[S, C any](configSource any, buildConfig func(any) (C, any, error)) (*ConfigNamespace[S, C], error) {

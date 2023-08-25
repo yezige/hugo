@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	template "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate/parse"
+	template "github.com/yezige/hugo/tpl/internal/go_templates/texttemplate"
+	"github.com/yezige/hugo/tpl/internal/go_templates/texttemplate/parse"
 )
 
 // Template is a specialized Template from "text/template" that produces a safe

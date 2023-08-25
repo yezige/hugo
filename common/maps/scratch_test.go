@@ -84,7 +84,7 @@ func TestScratchAddSlice(t *testing.T) {
 	}
 }
 
-// https://github.com/gohugoio/hugo/issues/5275
+// https://github.com/yezige/hugo/issues/5275
 func TestScratchAddTypedSliceToInterfaceSlice(t *testing.T) {
 	t.Parallel()
 	c := qt.New(t)
@@ -97,7 +97,7 @@ func TestScratchAddTypedSliceToInterfaceSlice(t *testing.T) {
 	c.Assert(scratch.Get("slice"), qt.DeepEquals, []int{1, 2})
 }
 
-// https://github.com/gohugoio/hugo/issues/5361
+// https://github.com/yezige/hugo/issues/5361
 func TestScratchAddDifferentTypedSliceToInterfaceSlice(t *testing.T) {
 	t.Parallel()
 	c := qt.New(t)

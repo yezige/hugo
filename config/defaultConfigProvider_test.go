@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/para"
+	"github.com/yezige/hugo/common/para"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 
 	qt "github.com/frankban/quicktest"
 )

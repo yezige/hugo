@@ -30,25 +30,25 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/output/layouts"
+	"github.com/yezige/hugo/common/types"
+	"github.com/yezige/hugo/output/layouts"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/output"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/deps"
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs/files"
 
-	htmltemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/htmltemplate"
-	texttemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
+	htmltemplate "github.com/yezige/hugo/tpl/internal/go_templates/htmltemplate"
+	texttemplate "github.com/yezige/hugo/tpl/internal/go_templates/texttemplate"
 
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/tpl"
 )
 
 const (
@@ -702,7 +702,7 @@ func (t *templateHandler) applyBaseTemplate(overlay, base templateInfo) (tpl.Tem
 
 		// The extra lookup is a workaround, see
 		// * https://github.com/golang/go/issues/16101
-		// * https://github.com/gohugoio/hugo/issues/2549
+		// * https://github.com/yezige/hugo/issues/2549
 		// templ = templ.Lookup(templ.Name())
 
 		return templ, nil
@@ -727,7 +727,7 @@ func (t *templateHandler) applyBaseTemplate(overlay, base templateInfo) (tpl.Tem
 
 	// The extra lookup is a workaround, see
 	// * https://github.com/golang/go/issues/16101
-	// * https://github.com/gohugoio/hugo/issues/2549
+	// * https://github.com/yezige/hugo/issues/2549
 	templ = templ.Lookup(templ.Name())
 
 	return templ, err

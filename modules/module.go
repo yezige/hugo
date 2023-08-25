@@ -19,7 +19,7 @@ package modules
 import (
 	"time"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 )
 
 var _ Module = (*moduleAdapter)(nil)

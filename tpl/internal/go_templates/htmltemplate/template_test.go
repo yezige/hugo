@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/gohugoio/hugo/tpl/internal/go_templates/htmltemplate"
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate/parse" // https://golang.org/issue/12996
+	. "github.com/yezige/hugo/tpl/internal/go_templates/htmltemplate"
+	"github.com/yezige/hugo/tpl/internal/go_templates/texttemplate/parse" // https://golang.org/issue/12996
 )
 
 func TestTemplateClone(t *testing.T) {

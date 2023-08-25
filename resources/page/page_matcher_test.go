@@ -17,8 +17,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/hugo"
+	"github.com/yezige/hugo/common/maps"
 
 	qt "github.com/frankban/quicktest"
 )

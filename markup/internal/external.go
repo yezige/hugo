@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/yezige/hugo/common/collections"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/markup/converter"
 )
 
 func ExternallyRenderContent(

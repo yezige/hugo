@@ -17,8 +17,8 @@ import (
 	"testing"
 
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/htesting"
+	"github.com/yezige/hugo/hugolib"
 )
 
 func TestTransformBabel(t *testing.T) {

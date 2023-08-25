@@ -17,11 +17,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/common/types/hstring"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/markup/internal/attributes"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/common/text"
+	"github.com/yezige/hugo/common/types/hstring"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/markup/internal/attributes"
 )
 
 var _ AttributesOptionsSliceProvider = (*attributes.AttributesHolder)(nil)

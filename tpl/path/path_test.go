@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/config/testconfig"
+	"github.com/yezige/hugo/common/paths"
+	"github.com/yezige/hugo/config/testconfig"
 )
 
 func newNs() *Namespace {

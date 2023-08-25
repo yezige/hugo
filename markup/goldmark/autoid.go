@@ -19,17 +19,17 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gohugoio/hugo/markup/blackfriday"
+	"github.com/yezige/hugo/markup/blackfriday"
 
-	"github.com/gohugoio/hugo/markup/goldmark/goldmark_config"
+	"github.com/yezige/hugo/markup/goldmark/goldmark_config"
 
-	"github.com/gohugoio/hugo/common/text"
+	"github.com/yezige/hugo/common/text"
 
 	"github.com/yezige/goldmark/ast"
 	"github.com/yezige/goldmark/parser"
 	"github.com/yezige/goldmark/util"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
+	bp "github.com/yezige/hugo/bufferpool"
 )
 
 func sanitizeAnchorNameString(s string, idType string) string {

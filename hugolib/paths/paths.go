@@ -17,12 +17,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	hpaths "github.com/gohugoio/hugo/common/paths"
+	hpaths "github.com/yezige/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/modules"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/modules"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 )
 
 var FilePathSeparator = string(filepath.Separator)

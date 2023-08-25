@@ -21,9 +21,9 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
+	"github.com/yezige/hugo/cache/filecache"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/testconfig"
 
 	qt "github.com/frankban/quicktest"
 )

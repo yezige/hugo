@@ -19,8 +19,8 @@ import (
 
 	"github.com/bep/logg"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/dartsass"
+	"github.com/yezige/hugo/hugolib"
+	"github.com/yezige/hugo/resources/resource_transformers/tocss/dartsass"
 )
 
 func TestTransformIncludePaths(t *testing.T) {

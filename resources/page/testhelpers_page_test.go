@@ -14,11 +14,11 @@
 package page_test
 
 import (
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/hugofs"
 	"github.com/spf13/afero"
 )
 

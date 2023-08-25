@@ -18,18 +18,18 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gohugoio/hugo/markup/highlight"
+	"github.com/yezige/hugo/markup/highlight"
 
-	"github.com/gohugoio/hugo/markup/markup_config"
+	"github.com/yezige/hugo/markup/markup_config"
 
-	"github.com/gohugoio/hugo/markup/goldmark"
+	"github.com/yezige/hugo/markup/goldmark"
 
-	"github.com/gohugoio/hugo/markup/org"
+	"github.com/yezige/hugo/markup/org"
 
-	"github.com/gohugoio/hugo/markup/asciidocext"
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/pandoc"
-	"github.com/gohugoio/hugo/markup/rst"
+	"github.com/yezige/hugo/markup/asciidocext"
+	"github.com/yezige/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/pandoc"
+	"github.com/yezige/hugo/markup/rst"
 )
 
 func NewConverterProvider(cfg converter.ProviderConfig) (ConverterProvider, error) {

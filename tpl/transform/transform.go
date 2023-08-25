@@ -19,14 +19,14 @@ import (
 	"html"
 	"html/template"
 
-	"github.com/gohugoio/hugo/cache/namedmemcache"
-	"github.com/gohugoio/hugo/markup/converter/hooks"
-	"github.com/gohugoio/hugo/markup/highlight"
-	"github.com/gohugoio/hugo/markup/highlight/chromalexers"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/cache/namedmemcache"
+	"github.com/yezige/hugo/markup/converter/hooks"
+	"github.com/yezige/hugo/markup/highlight"
+	"github.com/yezige/hugo/markup/highlight/chromalexers"
+	"github.com/yezige/hugo/tpl"
 
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/helpers"
 	"github.com/spf13/cast"
 )
 

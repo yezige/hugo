@@ -15,7 +15,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate/parse"
+	"github.com/yezige/hugo/tpl/internal/go_templates/texttemplate/parse"
 )
 
 func TestAddParseTreeHTML(t *testing.T) {

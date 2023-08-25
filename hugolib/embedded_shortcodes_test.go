@@ -16,7 +16,7 @@ package hugolib
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/yezige/hugo/htesting"
 )
 
 func TestEmbeddedShortcodes(t *testing.T) {

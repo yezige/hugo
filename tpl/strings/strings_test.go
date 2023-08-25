@@ -17,8 +17,8 @@ import (
 	"html/template"
 	"testing"
 
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/deps"
 
 	qt "github.com/frankban/quicktest"
 	"github.com/spf13/cast"

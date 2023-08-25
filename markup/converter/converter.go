@@ -17,14 +17,14 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/markup/converter/hooks"
-	"github.com/gohugoio/hugo/markup/highlight"
-	"github.com/gohugoio/hugo/markup/markup_config"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/markup/converter/hooks"
+	"github.com/yezige/hugo/markup/highlight"
+	"github.com/yezige/hugo/markup/markup_config"
+	"github.com/yezige/hugo/markup/tableofcontents"
 	"github.com/spf13/afero"
 )
 

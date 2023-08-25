@@ -17,10 +17,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/resource"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/resources/resource_transformers/htesting"
+	"github.com/yezige/hugo/resources/resource_transformers/htesting"
 )
 
 func TestTransform(t *testing.T) {

@@ -27,12 +27,12 @@ import (
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/langs"
-	"github.com/gohugoio/hugo/tpl/compare"
+	"github.com/yezige/hugo/common/collections"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/common/types"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/langs"
+	"github.com/yezige/hugo/tpl/compare"
 	"github.com/spf13/cast"
 )
 

@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/yezige/hugo/htesting"
+	"github.com/yezige/hugo/hugolib"
 )
 
 func TestBuildVariants(t *testing.T) {
@@ -87,13 +87,13 @@ baseURL = "https://example.org"
 disableKinds=["page", "section", "taxonomy", "term", "sitemap", "robotsTXT"]
 [module]
 [[module.imports]]
-path="github.com/gohugoio/hugoTestProjectJSModImports"
+path="github.com/yezige/hugoTestProjectJSModImports"
 -- go.mod --
 module github.com/gohugoio/tests/testHugoModules
 
 go 1.16
 
-require github.com/gohugoio/hugoTestProjectJSModImports v0.10.0 // indirect
+require github.com/yezige/hugoTestProjectJSModImports v0.10.0 // indirect
 -- package.json --
 {
 	"dependencies": {

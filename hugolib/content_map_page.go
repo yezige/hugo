@@ -22,21 +22,21 @@ import (
 
 	"sync"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/resources"
+	"github.com/yezige/hugo/common/types"
+	"github.com/yezige/hugo/resources"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugofs/files"
-	"github.com/gohugoio/hugo/parser/pageparser"
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs/files"
+	"github.com/yezige/hugo/parser/pageparser"
+	"github.com/yezige/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/resource"
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/common/para"
+	"github.com/yezige/hugo/common/para"
 )
 
 func newPageMaps(h *HugoSites) *pageMaps {

@@ -19,7 +19,7 @@ import (
 	"time"
 	_time "time"
 
-	"github.com/gohugoio/hugo/common/htime"
+	"github.com/yezige/hugo/common/htime"
 
 	"github.com/spf13/cast"
 )

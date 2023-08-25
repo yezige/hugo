@@ -17,9 +17,9 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/markup"
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/markup"
+	"github.com/yezige/hugo/markup/converter"
 )
 
 func TestConverterRegistry(t *testing.T) {

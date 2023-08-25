@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/yezige/hugo/htesting"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/herrors"
+	"github.com/yezige/hugo/common/herrors"
 )
 
 type testSiteBuildErrorAsserter struct {
@@ -47,7 +47,7 @@ func TestSiteBuildErrors(t *testing.T) {
 		single      = "single"
 	)
 
-	// TODO(bep) add content tests after https://github.com/gohugoio/hugo/issues/5324
+	// TODO(bep) add content tests after https://github.com/yezige/hugo/issues/5324
 	// is implemented.
 
 	tests := []struct {
@@ -192,7 +192,7 @@ foo bar
 			},
 		},
 		{
-			// See https://github.com/gohugoio/hugo/issues/5327
+			// See https://github.com/yezige/hugo/issues/5327
 			name:     "Panic in template Execute",
 			fileType: single,
 			fileFixer: func(content string) string {
@@ -616,7 +616,7 @@ toc line 4
 
 }
 
-// https://github.com/gohugoio/hugo/issues/5375
+// https://github.com/yezige/hugo/issues/5375
 func TestSiteBuildTimeout(t *testing.T) {
 	if !htesting.IsCI() {
 		//defer leaktest.CheckTimeout(t, 10*time.Second)()

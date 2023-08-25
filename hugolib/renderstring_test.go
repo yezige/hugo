@@ -18,7 +18,7 @@ import (
 
 	"github.com/bep/logg"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/loggers"
 )
 
 func TestRenderString(t *testing.T) {
@@ -52,7 +52,7 @@ RSTART:Hook Heading: 2:REND
 `)
 }
 
-// https://github.com/gohugoio/hugo/issues/6882
+// https://github.com/yezige/hugo/issues/6882
 func TestRenderStringOnListPage(t *testing.T) {
 	renderStringTempl := `
 {{ .RenderString "**Hello**" }}

@@ -33,7 +33,7 @@ import (
 	"context"
 
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/deploy"
+	"github.com/yezige/hugo/deploy"
 	"github.com/spf13/cobra"
 )
 

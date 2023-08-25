@@ -20,7 +20,7 @@ import (
 
 	qt "github.com/frankban/quicktest"
 
-	"github.com/gohugoio/hugo/common/htime"
+	"github.com/yezige/hugo/common/htime"
 	translators "github.com/gohugoio/localescompressed"
 )
 
@@ -69,7 +69,7 @@ func TestTimeLocation(t *testing.T) {
 					return
 				}
 
-				// See https://github.com/gohugoio/hugo/issues/8843#issuecomment-891551447
+				// See https://github.com/yezige/hugo/issues/8843#issuecomment-891551447
 				// Drop the location string (last element) when comparing,
 				// as that may change depending on the local locale.
 				timeStr := result.(time.Time).String()

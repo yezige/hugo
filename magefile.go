@@ -15,16 +15,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gohugoio/hugo/codegen"
-	"github.com/gohugoio/hugo/resources/page/page_generate"
+	"github.com/yezige/hugo/codegen"
+	"github.com/yezige/hugo/resources/page/page_generate"
 
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
 )
 
 const (
-	packageName  = "github.com/gohugoio/hugo"
-	noGitLdflags = "-X github.com/gohugoio/hugo/common/hugo.vendorInfo=mage"
+	packageName  = "github.com/yezige/hugo"
+	noGitLdflags = "-X github.com/yezige/hugo/common/hugo.vendorInfo=mage"
 )
 
 var ldflags = noGitLdflags
@@ -225,7 +225,7 @@ func Fmt() error {
 }
 
 var (
-	pkgPrefixLen = len("github.com/gohugoio/hugo")
+	pkgPrefixLen = len("github.com/yezige/hugo")
 	pkgs         []string
 	pkgsInit     sync.Once
 )

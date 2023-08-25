@@ -21,26 +21,26 @@ import (
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/tpl/internal/resourcehelpers"
+	"github.com/yezige/hugo/tpl/internal/resourcehelpers"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/resources/postpub"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/resources/postpub"
 
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/resources/resource_factories/bundler"
-	"github.com/gohugoio/hugo/resources/resource_factories/create"
-	"github.com/gohugoio/hugo/resources/resource_transformers/babel"
-	"github.com/gohugoio/hugo/resources/resource_transformers/integrity"
-	"github.com/gohugoio/hugo/resources/resource_transformers/minifier"
-	"github.com/gohugoio/hugo/resources/resource_transformers/postcss"
-	"github.com/gohugoio/hugo/resources/resource_transformers/templates"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/dartsass"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/scss"
+	"github.com/yezige/hugo/resources/resource_factories/bundler"
+	"github.com/yezige/hugo/resources/resource_factories/create"
+	"github.com/yezige/hugo/resources/resource_transformers/babel"
+	"github.com/yezige/hugo/resources/resource_transformers/integrity"
+	"github.com/yezige/hugo/resources/resource_transformers/minifier"
+	"github.com/yezige/hugo/resources/resource_transformers/postcss"
+	"github.com/yezige/hugo/resources/resource_transformers/templates"
+	"github.com/yezige/hugo/resources/resource_transformers/tocss/dartsass"
+	"github.com/yezige/hugo/resources/resource_transformers/tocss/scss"
 
 	"github.com/spf13/cast"
 )

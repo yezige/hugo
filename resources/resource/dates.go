@@ -16,7 +16,7 @@ package resource
 import (
 	"time"
 
-	"github.com/gohugoio/hugo/common/htime"
+	"github.com/yezige/hugo/common/htime"
 )
 
 var _ Dated = Dates{}

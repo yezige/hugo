@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/kinds"
 	"github.com/spf13/cast"
 
 	qt "github.com/frankban/quicktest"
@@ -198,7 +198,7 @@ Content.
 	}
 
 	// Add some static files inside the content dir
-	// https://github.com/gohugoio/hugo/issues/5759
+	// https://github.com/yezige/hugo/issues/5759
 	for _, lang := range []string{"en", "nn", "sv"} {
 		contentRoot := contentRoot(lang)
 		for i := 0; i < 2; i++ {
@@ -318,7 +318,7 @@ Content.
 	c.Assert(nnHome.RelPermalink(), qt.Equals, "/nn/")
 }
 
-// https://github.com/gohugoio/hugo/issues/6463
+// https://github.com/yezige/hugo/issues/6463
 func TestLanguageRootSectionsMismatch(t *testing.T) {
 	t.Parallel()
 

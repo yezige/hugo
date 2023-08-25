@@ -22,8 +22,8 @@ import (
 	"golang.org/x/text/collate"
 	"golang.org/x/text/language"
 
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/htime"
+	"github.com/yezige/hugo/common/maps"
 	"github.com/gohugoio/locales"
 	translators "github.com/gohugoio/localescompressed"
 )
@@ -109,7 +109,7 @@ See https://gohugo.io/content-management/multilingual/#changes-in-hugo-01120
 // Deprecated: Use the site.Params instead.
 func (l *Language) Params() maps.Params {
 	// TODO(bep) Remove this for now as it created a little too much noise. Need to think about this.
-	// See https://github.com/gohugoio/hugo/issues/11025
+	// See https://github.com/yezige/hugo/issues/11025
 	//DeprecationFunc(".Language.Params", paramsDeprecationWarning, false)
 	return l.params
 }

@@ -18,10 +18,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/hugofs/glob"
-	"github.com/gohugoio/hugo/resources/kinds"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/hugofs/glob"
+	"github.com/yezige/hugo/resources/kinds"
 	"github.com/mitchellh/mapstructure"
 )
 

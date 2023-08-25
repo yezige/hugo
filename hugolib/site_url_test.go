@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources/kinds"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/resources/kinds"
 )
 
 const slugDoc1 = "---\ntitle: slug doc 1\nslug: slug-doc-1\naliases:\n - /sd1/foo/\n - /sd2\n - /sd3/\n - /sd4.html\n---\nslug doc 1 content\n"

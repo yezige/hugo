@@ -18,10 +18,10 @@ import (
 	"html/template"
 	"sort"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/compare"
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/common/types"
+	"github.com/yezige/hugo/compare"
+	"github.com/yezige/hugo/config"
 	"github.com/mitchellh/mapstructure"
 
 	"github.com/spf13/cast"

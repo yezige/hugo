@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 
 	"github.com/bep/overlayfs"
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/deps"
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
 )

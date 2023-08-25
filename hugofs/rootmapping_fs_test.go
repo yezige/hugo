@@ -20,11 +20,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/hugofs/glob"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/yezige/hugo/htesting"
 	"github.com/spf13/afero"
 )
 
@@ -363,7 +363,7 @@ func TestRootMappingFsOs(t *testing.T) {
 
 	c.Assert(afero.WriteFile(fs, filepath.Join(d, "f2t", testfile), []byte("some content"), 0755), qt.IsNil)
 
-	// https://github.com/gohugoio/hugo/issues/6854
+	// https://github.com/yezige/hugo/issues/6854
 	mystaticDir := filepath.Join(d, "mystatic", "a", "b", "c")
 	c.Assert(fs.MkdirAll(mystaticDir, 0755), qt.IsNil)
 	c.Assert(afero.WriteFile(fs, filepath.Join(mystaticDir, "ms-1.txt"), []byte("some content"), 0755), qt.IsNil)

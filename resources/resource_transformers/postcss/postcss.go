@@ -25,15 +25,15 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/common/collections"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/common/text"
+	"github.com/yezige/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/common/hugo"
+	"github.com/yezige/hugo/common/hugo"
 
-	"github.com/gohugoio/hugo/resources/internal"
+	"github.com/yezige/hugo/resources/internal"
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
 
@@ -41,9 +41,9 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 const importIdentifier = "@import"

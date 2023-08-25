@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/hreflect"
+	"github.com/yezige/hugo/common/hreflect"
 )
 
 type TestStruct struct {

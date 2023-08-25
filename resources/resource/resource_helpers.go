@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 
 	"github.com/spf13/cast"
 )

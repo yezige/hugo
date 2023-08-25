@@ -16,9 +16,9 @@ package allconfig
 import (
 	"time"
 
-	"github.com/gohugoio/hugo/common/urls"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/langs"
+	"github.com/yezige/hugo/common/urls"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/langs"
 )
 
 type ConfigLanguage struct {

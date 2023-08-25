@@ -17,11 +17,11 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/page"
 )
 
 func newPagePaths(
@@ -120,7 +120,7 @@ func createTargetPathDescriptor(s *Site, p page.Page, pm *pageMeta) (page.Target
 	}
 
 	if classifier == files.ContentClassLeaf {
-		// See https://github.com/gohugoio/hugo/issues/4870
+		// See https://github.com/yezige/hugo/issues/4870
 		// A leaf bundle
 		dir = strings.TrimSuffix(dir, contentBaseName+helpers.FilePathSeparator)
 		baseName = contentBaseName

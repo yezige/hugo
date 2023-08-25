@@ -20,10 +20,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohugoio/hugo/resources/images"
+	"github.com/yezige/hugo/resources/images"
 
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/cache/filecache"
+	"github.com/yezige/hugo/helpers"
 )
 
 // ImageCache is a cache for image resources. The backing caches are shared between all sites.

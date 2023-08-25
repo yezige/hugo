@@ -23,10 +23,10 @@ import (
 	"errors"
 
 	kopenapi3 "github.com/getkin/kin-openapi/openapi3"
-	"github.com/gohugoio/hugo/cache/namedmemcache"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/parser/metadecoders"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/cache/namedmemcache"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 // New returns a new instance of the openapi3-namespaced template functions.

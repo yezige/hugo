@@ -19,13 +19,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/tpl/transform"
+	"github.com/yezige/hugo/hugolib"
+	"github.com/yezige/hugo/tpl/transform"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/media"
+	"github.com/yezige/hugo/media"
 
 	qt "github.com/frankban/quicktest"
 )

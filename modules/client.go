@@ -27,24 +27,24 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/collections"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/common/loggers"
 
-	hglob "github.com/gohugoio/hugo/hugofs/glob"
+	hglob "github.com/yezige/hugo/hugofs/glob"
 
 	"github.com/gobwas/glob"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 
 	"github.com/rogpeppe/go-internal/module"
 
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/yezige/hugo/common/hugio"
 
 	"errors"
 
@@ -235,11 +235,11 @@ func (c *Client) Vendor() error {
 
 		if !t.IsGoMod() && !t.Vendor() {
 			// We currently do not vendor components living in the
-			// theme directory, see https://github.com/gohugoio/hugo/issues/5993
+			// theme directory, see https://github.com/yezige/hugo/issues/5993
 			continue
 		}
 
-		// See https://github.com/gohugoio/hugo/issues/8239
+		// See https://github.com/yezige/hugo/issues/8239
 		// This is an error situation. We need something to vendor.
 		if t.Mounts() == nil {
 			return fmt.Errorf("cannot vendor module %q, need at least one mount", t.Path())
@@ -647,13 +647,13 @@ func (c *Client) runGo(
 		}
 
 		if strings.Contains(stderr.String(), "invalid version: unknown revision") {
-			// See https://github.com/gohugoio/hugo/issues/6825
+			// See https://github.com/yezige/hugo/issues/6825
 			c.logger.Println(`An unknown revision most likely means that someone has deleted the remote ref (e.g. with a force push to GitHub).
 To resolve this, you need to manually edit your go.mod file and replace the version for the module in question with a valid ref.
 
 The easiest is to just enter a valid branch name there, e.g. master, which would be what you put in place of 'v0.5.1' in the example below.
 
-require github.com/gohugoio/hugo-mod-jslibs/instantpage v0.5.1
+require github.com/yezige/hugo-mod-jslibs/instantpage v0.5.1
 
 If you then run 'hugo mod graph' it should resolve itself to the most recent version (or commit if no semver versions are available).`)
 		}

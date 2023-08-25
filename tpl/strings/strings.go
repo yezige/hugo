@@ -23,10 +23,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/common/text"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/tpl"
 
 	"github.com/spf13/cast"
 )

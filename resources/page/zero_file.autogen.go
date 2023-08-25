@@ -16,9 +16,9 @@
 package page
 
 import (
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/source"
 )
 
 // ZeroFile represents a zero value of source.File with warnings if invoked.

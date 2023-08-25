@@ -20,35 +20,35 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/gohugoio/hugo/config/allconfig"
-	"github.com/gohugoio/hugo/config/security"
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/yezige/hugo/config/allconfig"
+	"github.com/yezige/hugo/config/security"
+	"github.com/yezige/hugo/htesting"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/output"
 
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/parser/metadecoders"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/gohugoio/hugo/parser"
+	"github.com/yezige/hugo/parser"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/resources/page"
 	"github.com/sanity-io/litter"
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/tpl"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/resource"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 )
 
 var (

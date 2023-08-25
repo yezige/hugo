@@ -25,14 +25,14 @@ import (
 
 	"github.com/bep/lazycache"
 
-	"github.com/gohugoio/hugo/identity"
+	"github.com/yezige/hugo/identity"
 
-	texttemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
+	texttemplate "github.com/yezige/hugo/tpl/internal/go_templates/texttemplate"
 
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/tpl"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/deps"
+	bp "github.com/yezige/hugo/bufferpool"
+	"github.com/yezige/hugo/deps"
 )
 
 type partialCacheKey struct {

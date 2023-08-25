@@ -16,8 +16,8 @@ package hugolib
 import (
 	"context"
 
-	"github.com/gohugoio/hugo/lazy"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/lazy"
+	"github.com/yezige/hugo/resources/page"
 )
 
 func newPagePosition(n *nextPrev) pagePosition {

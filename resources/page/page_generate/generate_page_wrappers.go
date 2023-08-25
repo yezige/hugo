@@ -22,12 +22,12 @@ import (
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/codegen"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/codegen"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/resource"
+	"github.com/yezige/hugo/source"
 )
 
 const header = `// Copyright 2019 The Hugo Authors. All rights reserved.
@@ -113,7 +113,7 @@ func generateMarshalJSON(c *codegen.Inspector) error {
 
 	marshalJSON, pkgImports := methods.ToMarshalJSON(
 		"Page",
-		"github.com/gohugoio/hugo/resources/page",
+		"github.com/yezige/hugo/resources/page",
 		// Exclusion regexps. Matches method names.
 		`\bPage\b`,
 	)
@@ -175,7 +175,7 @@ func generateDeprecatedWrappers(c *codegen.Inspector) error {
 	}
 
 	pkgImports := methods.Imports()
-	// pkgImports := append(methods.Imports(), "github.com/gohugoio/hugo/helpers")
+	// pkgImports := append(methods.Imports(), "github.com/yezige/hugo/helpers")
 
 	fmt.Fprintf(f, `%s
 
@@ -234,7 +234,7 @@ func generateFileIsZeroWrappers(c *codegen.Inspector) error {
 
 	}
 
-	pkgImports := append(methods.Imports(), "github.com/gohugoio/hugo/common/loggers", "github.com/gohugoio/hugo/source")
+	pkgImports := append(methods.Imports(), "github.com/yezige/hugo/common/loggers", "github.com/yezige/hugo/source")
 
 	fmt.Fprintf(f, `%s
 

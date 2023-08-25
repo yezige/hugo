@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/parser"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/parser"
+	"github.com/yezige/hugo/parser/metadecoders"
 
 	qt "github.com/frankban/quicktest"
 )
@@ -74,7 +74,7 @@ func TestMerge(t *testing.T) {
 			false,
 		},
 		{
-			// https://github.com/gohugoio/hugo/issues/6633
+			// https://github.com/yezige/hugo/issues/6633
 			"params dst",
 			[]any{
 				map[string]any{"a": 42, "c": 3},
@@ -120,7 +120,7 @@ func TestMerge(t *testing.T) {
 			false,
 		},
 		{
-			// https://github.com/gohugoio/hugo/issues/7899
+			// https://github.com/yezige/hugo/issues/7899
 			"matching keys with non-map src value",
 			[]any{
 				map[string]any{"k": "v"},

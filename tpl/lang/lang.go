@@ -26,8 +26,8 @@ import (
 	"github.com/gohugoio/locales"
 	translators "github.com/gohugoio/localescompressed"
 
-	"github.com/gohugoio/hugo/common/hreflect"
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/common/hreflect"
+	"github.com/yezige/hugo/deps"
 	"github.com/spf13/cast"
 )
 

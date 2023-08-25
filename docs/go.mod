@@ -1,4 +1,4 @@
-module github.com/gohugoio/hugoDocs
+module github.com/yezige/hugoDocs
 
 go 1.16
 

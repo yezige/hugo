@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gohugoio/hugo/cache/filecache"
+	"github.com/yezige/hugo/cache/filecache"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 	"github.com/spf13/afero"
 )
 

@@ -381,7 +381,7 @@ func TestGroupByParamDate(t *testing.T) {
 	}
 }
 
-// https://github.com/gohugoio/hugo/issues/3983
+// https://github.com/yezige/hugo/issues/3983
 func TestGroupByParamDateWithStringParams(t *testing.T) {
 	t.Parallel()
 	pages := preparePageGroupTestPages(t)

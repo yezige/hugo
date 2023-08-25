@@ -20,17 +20,17 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/parser/pageparser"
+	"github.com/yezige/hugo/parser/pageparser"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/yezige/hugo/source"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 	"github.com/spf13/afero"
 )
 

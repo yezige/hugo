@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config/testconfig"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/config/testconfig"
 
 	qt "github.com/frankban/quicktest"
 )

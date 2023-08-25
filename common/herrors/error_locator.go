@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/text"
+	"github.com/yezige/hugo/common/text"
 )
 
 // LineMatcher contains the elements used to match an error to a line

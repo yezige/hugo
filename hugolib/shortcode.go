@@ -26,22 +26,22 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/herrors"
+	"github.com/yezige/hugo/common/herrors"
 
-	"github.com/gohugoio/hugo/parser/pageparser"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/parser/pageparser"
+	"github.com/yezige/hugo/resources/page"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/common/urls"
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/common/text"
+	"github.com/yezige/hugo/common/urls"
+	"github.com/yezige/hugo/output"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/tpl"
+	bp "github.com/yezige/hugo/bufferpool"
+	"github.com/yezige/hugo/tpl"
 )
 
 var (

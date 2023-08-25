@@ -20,8 +20,8 @@ import (
 	"html/template"
 	"net/url"
 
-	"github.com/gohugoio/hugo/common/urls"
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/common/urls"
+	"github.com/yezige/hugo/deps"
 	"github.com/spf13/cast"
 )
 

@@ -30,8 +30,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/media"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/media"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/spf13/afero"

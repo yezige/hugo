@@ -17,9 +17,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/common/types"
 
 	qt "github.com/frankban/quicktest"
 )

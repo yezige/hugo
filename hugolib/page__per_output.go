@@ -24,28 +24,28 @@ import (
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/common/types/hstring"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/parser/pageparser"
+	"github.com/yezige/hugo/common/text"
+	"github.com/yezige/hugo/common/types/hstring"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/parser/pageparser"
 	"github.com/mitchellh/mapstructure"
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/markup/converter/hooks"
-	"github.com/gohugoio/hugo/markup/highlight/chromalexers"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/yezige/hugo/markup/converter/hooks"
+	"github.com/yezige/hugo/markup/highlight/chromalexers"
+	"github.com/yezige/hugo/markup/tableofcontents"
 
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/converter"
 
-	"github.com/gohugoio/hugo/lazy"
+	"github.com/yezige/hugo/lazy"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/tpl"
+	bp "github.com/yezige/hugo/bufferpool"
+	"github.com/yezige/hugo/tpl"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/output"
+	"github.com/yezige/hugo/resources/page"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 var (

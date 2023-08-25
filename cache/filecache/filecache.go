@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/yezige/hugo/common/hugio"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 
 	"github.com/BurntSushi/locker"
 	"github.com/spf13/afero"
@@ -141,7 +141,7 @@ func (c *Cache) ReadOrCreate(id string,
 		err = read(info, r)
 		defer r.Close()
 		if err == nil || err == ErrFatal {
-			// See https://github.com/gohugoio/hugo/issues/6401
+			// See https://github.com/yezige/hugo/issues/6401
 			// To recover from file corruption we handle read errors
 			// as the cache item was not found.
 			// Any file permission issue will also fail in the next step.

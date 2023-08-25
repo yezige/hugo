@@ -18,9 +18,9 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/gohugoio/hugo/common/hreflect"
+	"github.com/yezige/hugo/common/hreflect"
 
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate/parse"
+	"github.com/yezige/hugo/tpl/internal/go_templates/texttemplate/parse"
 )
 
 /*

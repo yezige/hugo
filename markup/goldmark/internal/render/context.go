@@ -17,8 +17,8 @@ import (
 	"bytes"
 	"math/bits"
 
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/yezige/hugo/identity"
+	"github.com/yezige/hugo/markup/converter"
 )
 
 type BufWriter struct {

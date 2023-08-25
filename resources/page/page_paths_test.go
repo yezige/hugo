@@ -19,11 +19,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/media"
+	"github.com/yezige/hugo/resources/kinds"
+	"github.com/yezige/hugo/resources/page"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/output"
 )
 
 func TestPageTargetPath(t *testing.T) {

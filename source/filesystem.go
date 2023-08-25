@@ -18,7 +18,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 )
 
 // Filesystem represents a source filesystem.

@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/bep/helpers/envhelpers"
-	"github.com/gohugoio/hugo/commands"
+	"github.com/yezige/hugo/commands"
 	"github.com/rogpeppe/go-internal/testscript"
 )
 

@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/htesting/hqt"
+	"github.com/yezige/hugo/htesting/hqt"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/hugo"
+	"github.com/yezige/hugo/common/hugo"
 	"github.com/spf13/cast"
 )
 
@@ -234,7 +234,7 @@ func doTestCompare(t *testing.T, tp tstCompareType, funcUnderTest func(a, b any)
 		{"0.37-DEV", hugo.MustParseVersion("0.37").Version(), -1},
 		{"0.36", hugo.MustParseVersion("0.37-DEV").Version(), -1},
 		{"0.37-DEV", hugo.MustParseVersion("0.37-DEV").Version(), 0},
-		// https://github.com/gohugoio/hugo/issues/5905
+		// https://github.com/yezige/hugo/issues/5905
 		{nil, nil, 0},
 		{testT.NonEmptyInterfaceNil, nil, 0},
 		{testT.NonEmptyInterfaceTypedNil, nil, 0},

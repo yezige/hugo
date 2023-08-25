@@ -17,7 +17,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/gohugoio/hugo/commands"
+	"github.com/yezige/hugo/commands"
 )
 
 func main() {

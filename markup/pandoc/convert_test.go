@@ -16,11 +16,11 @@ package pandoc
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config/security"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/config/security"
 
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/yezige/hugo/markup/converter"
 
 	qt "github.com/frankban/quicktest"
 )

@@ -22,13 +22,13 @@ import (
 	"strings"
 	"unicode"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/output/layouts"
+	bp "github.com/yezige/hugo/bufferpool"
+	"github.com/yezige/hugo/output/layouts"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/output"
 
-	htmltemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/htmltemplate"
-	texttemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
+	htmltemplate "github.com/yezige/hugo/tpl/internal/go_templates/htmltemplate"
+	texttemplate "github.com/yezige/hugo/tpl/internal/go_templates/texttemplate"
 )
 
 // TemplateManager manages the collection of templates.

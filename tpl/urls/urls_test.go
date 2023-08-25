@@ -17,8 +17,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/htesting/hqt"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/htesting/hqt"
 
 	qt "github.com/frankban/quicktest"
 )

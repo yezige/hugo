@@ -24,12 +24,12 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/hreflect"
-	"github.com/gohugoio/hugo/compare"
-	"github.com/gohugoio/hugo/langs"
+	"github.com/yezige/hugo/common/collections"
+	"github.com/yezige/hugo/common/hreflect"
+	"github.com/yezige/hugo/compare"
+	"github.com/yezige/hugo/langs"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 var (

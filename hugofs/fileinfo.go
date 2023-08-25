@@ -23,15 +23,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/yezige/hugo/hugofs/glob"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/hugofs/files"
 	"golang.org/x/text/unicode/norm"
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/hreflect"
-	"github.com/gohugoio/hugo/common/htime"
+	"github.com/yezige/hugo/common/hreflect"
+	"github.com/yezige/hugo/common/htime"
 
 	"github.com/spf13/afero"
 )

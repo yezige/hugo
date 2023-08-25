@@ -21,15 +21,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/testconfig"
 
 	"github.com/spf13/afero"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugolib/filesystems"
-	"github.com/gohugoio/hugo/hugolib/paths"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/hugolib/filesystems"
+	"github.com/yezige/hugo/hugolib/paths"
 )
 
 func TestNewBaseFs(t *testing.T) {
@@ -128,7 +128,7 @@ theme = ["atheme"]
 	checkFileContent(bfs.Work, "file-root.txt", c, "content-project")
 	checkFileContent(bfs.Work, "theme-root-atheme.txt", c, "content:atheme")
 
-	// https://github.com/gohugoio/hugo/issues/5318
+	// https://github.com/yezige/hugo/issues/5318
 	// Check both project and theme.
 	for _, fs := range []afero.Fs{bfs.Archetypes.Fs, bfs.Layouts.Fs} {
 		for _, filename := range []string{"/f1.txt", "/theme-file-atheme.txt"} {

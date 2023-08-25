@@ -18,10 +18,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/urls"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/resources/kinds"
+	"github.com/yezige/hugo/common/urls"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/output"
+	"github.com/yezige/hugo/resources/kinds"
 )
 
 const slash = "/"
@@ -220,7 +220,7 @@ func CreateTargetPaths(d TargetPathDescriptor) (tp TargetPaths) {
 
 		link = pagePath
 
-		// TODO(bep) this should not happen after the fix in https://github.com/gohugoio/hugo/issues/4870
+		// TODO(bep) this should not happen after the fix in https://github.com/yezige/hugo/issues/4870
 		// but we may need some more testing before we can remove it.
 		if baseNameSameAsType {
 			link = strings.TrimSuffix(link, d.BaseName)

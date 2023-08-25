@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/transform"
+	"github.com/yezige/hugo/transform"
 )
 
 func TestHugoGeneratorInject(t *testing.T) {

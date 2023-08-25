@@ -14,8 +14,8 @@
 package tplimpl
 
 import (
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/tpl"
 )
 
 // TemplateProvider manages templates.

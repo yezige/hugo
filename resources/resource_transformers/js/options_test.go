@@ -17,8 +17,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/media"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/media"
 
 	"github.com/spf13/afero"
 

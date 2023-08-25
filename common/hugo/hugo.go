@@ -29,13 +29,13 @@ import (
 	"time"
 
 	"github.com/bep/godartsass/v2"
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/yezige/hugo/common/hexec"
+	"github.com/yezige/hugo/hugofs/files"
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/hugofs"
 )
 
 const (

@@ -16,7 +16,7 @@ package langs
 import (
 	"errors"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 	"github.com/mitchellh/mapstructure"
 )
 

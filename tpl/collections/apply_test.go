@@ -21,10 +21,10 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/output/layouts"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/config/testconfig"
+	"github.com/yezige/hugo/output"
+	"github.com/yezige/hugo/output/layouts"
+	"github.com/yezige/hugo/tpl"
 )
 
 type templateFinder int

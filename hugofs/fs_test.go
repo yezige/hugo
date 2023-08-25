@@ -16,10 +16,10 @@ package hugofs
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/htesting/hqt"
+	"github.com/yezige/hugo/htesting/hqt"
 	"github.com/spf13/afero"
 )
 

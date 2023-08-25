@@ -22,14 +22,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/yezige/hugo/hugofs/glob"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/yezige/hugo/cache/filecache"
+	"github.com/yezige/hugo/common/hugio"
+	"github.com/yezige/hugo/resources"
+	"github.com/yezige/hugo/resources/resource"
 )
 
 // Client contains methods to create Resource objects.

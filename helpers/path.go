@@ -25,13 +25,13 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/yezige/hugo/common/herrors"
+	"github.com/yezige/hugo/common/text"
+	"github.com/yezige/hugo/htesting"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/yezige/hugo/common/hugio"
 	"github.com/spf13/afero"
 )
 

@@ -20,19 +20,19 @@ import (
 	"testing"
 
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/config/testconfig"
+	"github.com/yezige/hugo/common/loggers"
+	"github.com/yezige/hugo/common/types"
+	"github.com/yezige/hugo/config/testconfig"
 
-	"github.com/gohugoio/hugo/tpl/tplimpl"
+	"github.com/yezige/hugo/tpl/tplimpl"
 
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/yezige/hugo/resources/page"
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/yezige/hugo/deps"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config"
+	"github.com/yezige/hugo/config"
 )
 
 var logger = loggers.NewDefault()
@@ -126,7 +126,7 @@ var i18nTests = []i18nTest{
 		expected:     "¡Hola, 50 gente!",
 		expectedFlag: "¡Hola, 50 gente!",
 	},
-	// https://github.com/gohugoio/hugo/issues/7787
+	// https://github.com/yezige/hugo/issues/7787
 	{
 		name: "readingTime-one",
 		data: map[string][]byte{
@@ -226,7 +226,7 @@ other = "Number is {{ . }}"
 		expectedFlag: "Number is 22.5",
 	},
 	// Same id and translation in current language
-	// https://github.com/gohugoio/hugo/issues/2607
+	// https://github.com/yezige/hugo/issues/2607
 	{
 		name: "same-id-and-translation",
 		data: map[string][]byte{
@@ -289,7 +289,7 @@ other = "a2 count {{ .Count }}"`),
 		expected:     "a2 count 3",
 		expectedFlag: "a2 count 3",
 	},
-	// https://github.com/gohugoio/hugo/issues/7798
+	// https://github.com/yezige/hugo/issues/7798
 	{
 		name: "known-language-missing-plural",
 		data: map[string][]byte{
@@ -302,7 +302,7 @@ one =  "abc"`),
 		expected:     "abc",
 		expectedFlag: "abc",
 	},
-	// https://github.com/gohugoio/hugo/issues/7794
+	// https://github.com/yezige/hugo/issues/7794
 	{
 		name: "dotted-bare-key",
 		data: map[string][]byte{
@@ -315,7 +315,7 @@ one =  "abc"`),
 		expected:     "Show Me The Money",
 		expectedFlag: "Show Me The Money",
 	},
-	// https: //github.com/gohugoio/hugo/issues/7804
+	// https: //github.com/yezige/hugo/issues/7804
 	{
 		name: "lang-with-hyphen",
 		data: map[string][]byte{

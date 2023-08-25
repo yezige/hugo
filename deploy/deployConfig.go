@@ -20,8 +20,8 @@ import (
 	"errors"
 
 	"github.com/gobwas/glob"
-	"github.com/gohugoio/hugo/config"
-	hglob "github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/yezige/hugo/config"
+	hglob "github.com/yezige/hugo/hugofs/glob"
 	"github.com/mitchellh/mapstructure"
 )
 

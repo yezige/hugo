@@ -19,14 +19,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/allconfig"
-	"github.com/gohugoio/hugo/identity"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/config/allconfig"
+	"github.com/yezige/hugo/identity"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/deps"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/tpl"
 )
 
 func TestTemplateLookupOrder(t *testing.T) {
@@ -210,7 +210,7 @@ Some content
 	}
 }
 
-// https://github.com/gohugoio/hugo/issues/4895
+// https://github.com/yezige/hugo/issues/4895
 func TestTemplateBOM(t *testing.T) {
 	b := newTestSitesBuilder(t).WithSimpleConfigFile()
 	bom := "\ufeff"
@@ -267,7 +267,7 @@ Base %d: {{ block "main" . }}FOO{{ end }}
 	}
 }
 
-// https://github.com/gohugoio/hugo/issues/6790
+// https://github.com/yezige/hugo/issues/6790
 func TestTemplateNoBasePlease(t *testing.T) {
 	t.Parallel()
 	b := newTestSitesBuilder(t).WithSimpleConfigFile()
@@ -303,7 +303,7 @@ title: The Page
 	b.AssertFileContent("public/blog/index.html", `list`)
 }
 
-// https://github.com/gohugoio/hugo/issues/6816
+// https://github.com/yezige/hugo/issues/6816
 func TestTemplateBaseWithComment(t *testing.T) {
 	t.Parallel()
 	b := newTestSitesBuilder(t).WithSimpleConfigFile()
@@ -509,7 +509,7 @@ Partial cached3: {{ partialCached "p1" "input3" $key2 }}
 `)
 }
 
-// https://github.com/gohugoio/hugo/issues/6615
+// https://github.com/yezige/hugo/issues/6615
 func TestTemplateTruth(t *testing.T) {
 	b := newTestSitesBuilder(t)
 	b.WithTemplatesAdded("index.html", `
@@ -716,7 +716,7 @@ P3: Inline: p3
 	)
 }
 
-// https://github.com/gohugoio/hugo/issues/7478
+// https://github.com/yezige/hugo/issues/7478
 func TestBaseWithAndWithoutDefine(t *testing.T) {
 	b := newTestSitesBuilder(t)
 

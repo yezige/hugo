@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"github.com/disintegration/gift"
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/yezige/hugo/common/hugio"
 
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/gofont/goregular"

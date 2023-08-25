@@ -20,9 +20,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/yezige/hugo/common/loggers"
 
-	"github.com/gohugoio/hugo/transform"
+	"github.com/yezige/hugo/transform"
 )
 
 const warnMessage = `"head" or "body" tag is required in html to append livereload script. ` +

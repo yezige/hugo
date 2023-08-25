@@ -18,15 +18,15 @@ import (
 	"regexp"
 	"strings"
 
-	htmltemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/htmltemplate"
-	texttemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
+	htmltemplate "github.com/yezige/hugo/tpl/internal/go_templates/htmltemplate"
+	texttemplate "github.com/yezige/hugo/tpl/internal/go_templates/texttemplate"
 
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate/parse"
+	"github.com/yezige/hugo/tpl/internal/go_templates/texttemplate/parse"
 
 	"errors"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/common/maps"
+	"github.com/yezige/hugo/tpl"
 	"github.com/mitchellh/mapstructure"
 )
 

@@ -23,25 +23,25 @@ import (
 	"time"
 
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/hugofs/files"
-	"github.com/gohugoio/hugo/langs"
-	"github.com/gohugoio/hugo/publisher"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/yezige/hugo/hugofs/files"
+	"github.com/yezige/hugo/langs"
+	"github.com/yezige/hugo/publisher"
+	"github.com/yezige/hugo/tpl"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/yezige/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/common/para"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/resources/postpub"
+	"github.com/yezige/hugo/common/para"
+	"github.com/yezige/hugo/config"
+	"github.com/yezige/hugo/resources/postpub"
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/yezige/hugo/output"
 
 	"errors"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/yezige/hugo/helpers"
 )
 
 func init() {

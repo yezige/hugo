@@ -20,14 +20,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/yezige/hugo/common/maps"
 	"github.com/spf13/afero"
 
 	"github.com/evanw/esbuild/pkg/api"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/media"
+	"github.com/yezige/hugo/helpers"
+	"github.com/yezige/hugo/hugofs"
+	"github.com/yezige/hugo/media"
 	"github.com/mitchellh/mapstructure"
 )
 
