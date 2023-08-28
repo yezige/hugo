@@ -452,6 +452,8 @@ github.com/ugorji/go/codec v1.2.7 h1:YPXUKf7fYbp/y8xloBqZOw2qaVggbfwMlI8WM3wZUJ0
 github.com/ugorji/go/codec v1.2.7/go.mod h1:WGN1fab3R1fzQlVQTkfxVtIBhWDRqOviHU95kRgeqEY=
 github.com/yezige/goldmark v1.5.7 h1:q/d5kJ5y60r7ZKvLf7gqhWF6tdcijmsueW+Tohw3Pow=
 github.com/yezige/goldmark v1.5.7/go.mod h1:yIfKRQiZVLDJOTHUKCoVt48WDFG8iyRK3XcFzFplWuI=
+github.com/yezige/goldmark v1.5.8 h1:5962AvMsIAHylvUHO2gXRrG9tQDGYo2uiWWJ/v+UhKk=
+github.com/yezige/goldmark v1.5.8/go.mod h1:yIfKRQiZVLDJOTHUKCoVt48WDFG8iyRK3XcFzFplWuI=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.32/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=

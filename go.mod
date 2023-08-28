@@ -63,7 +63,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/tdewolff/minify/v2 v2.12.7
 	github.com/tdewolff/parse/v2 v2.6.6
-	github.com/yezige/goldmark v1.5.7
+	github.com/yezige/goldmark v1.5.8
 	go.uber.org/atomic v1.11.0
 	go.uber.org/automaxprocs v1.5.3
 	gocloud.dev v0.33.0
@@ -138,7 +138,6 @@ require (
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/yuin/goldmark v1.4.13 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/crypto v0.12.0 // indirect
 	golang.org/x/mod v0.12.0 // indirect
